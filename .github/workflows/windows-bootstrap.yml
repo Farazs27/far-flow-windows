@@ -55,6 +55,16 @@ jobs:
           $app=$app.Replace('InitializeComponent();',$diagnostic)
           $app=$app.Replace('_window = new MainWindow();','try { _window = new MainWindow(); } catch(Exception e) { System.IO.File.WriteAllText(System.IO.Path.Combine(AppContext.BaseDirectory,"startup-error.txt"),e.ToString()); throw; }')
           Set-Content $appPath $app
+          # Recover the failing template title-bar XAML to the documented minimal
+          # Window shape before extending it. Project, manifest and app resources stay canonical.
+          @'
+          <Window x:Class="FarFlow_Windows.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Far Flow template verification"><Grid><TextBlock Text="Far Flow · Native Windows" FontSize="32" VerticalAlignment="Center" HorizontalAlignment="Center" /></Grid></Window>
+          '@ | Set-Content template/FarFlow.Windows/MainWindow.xaml
+          @'
+          using Microsoft.UI.Xaml;
+          namespace FarFlow_Windows;
+          public sealed partial class MainWindow : Window { public MainWindow() { InitializeComponent(); } }
+          '@ | Set-Content template/FarFlow.Windows/MainWindow.xaml.cs
           dotnet publish $path -c Release -r win-x64 -p:Platform=x64 -p:PublishProfile= -p:PublishTrimmed=false -p:PublishReadyToRun=false -o artifacts/template-app
           if ($LASTEXITCODE) { throw 'Native template build failed' }
       - name: Verify an actual responsive window
