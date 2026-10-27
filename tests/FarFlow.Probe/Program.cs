@@ -6,6 +6,8 @@ using FarFlow_Windows.Services;
 using NAudio.Wave;
 using NAudio.Wave.SampleProviders;
 
+if(args.Length==1&&args[0]=="--notepad-smoke"){await NotepadSmoke.RunAsync();return;}
+
 if(args.Length==2&&args[0]=="--hold-worker")
 {
  string name="FarFlow-"+Guid.NewGuid().ToString("N");

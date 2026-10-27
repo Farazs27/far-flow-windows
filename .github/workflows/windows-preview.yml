@@ -45,6 +45,11 @@ jobs:
           Start-Sleep -Milliseconds 800
           if(Get-Process -Id $ids.child -ErrorAction SilentlyContinue){throw 'Orphan worker survived parent kill'}
           @{parentExitTest='PASS';childStopped=$true;sourceCommit=$env:GITHUB_SHA} | ConvertTo-Json | Set-Content artifacts/evidence/lifetime.json
+      - name: Verify Notepad Unicode insertion and changed-target recovery
+        shell: pwsh
+        run: |
+          & artifacts/probe/FarFlow.Probe.exe --notepad-smoke
+          if($LASTEXITCODE){throw 'Notepad delivery test failed'}
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:

@@ -6,5 +6,6 @@
   <Compile Include="../../src/FarFlow.Windows/Services/ModelInstaller.cs" Link="ModelInstaller.cs" />
   <Compile Include="../../src/FarFlow.Windows/Services/OwnedWorker.cs" Link="OwnedWorker.cs" />
   <Compile Include="../../src/FarFlow.Windows/Services/WorkerClient.cs" Link="WorkerClient.cs" />
+  <Compile Include="../../src/FarFlow.Windows/Services/TextDelivery.cs" Link="TextDelivery.cs" />
  </ItemGroup>
 </Project>
