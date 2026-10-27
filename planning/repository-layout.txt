@@ -1,0 +1,17 @@
+src/
+  FarFlow.Windows/             native WinUI shell, Pages/ViewModels/Styles/Assets
+  FarFlow.Core/                portable rules, domain/session/schema
+  FarFlow.WindowsIntegration/  Win32/COM/WASAPI/hook/UIA/media/window adapters
+  FarFlow.ModelHost/           owned local inference worker, IPC/backends
+  FarFlow.Infrastructure/      SQLite, backups, manifests, diagnostics
+native/                       reviewed wrapper/build definitions where needed
+models/manifests/             approved file metadata; weights remain external
+tests/
+  FarFlow.Core.Tests/
+  FarFlow.Windows.Tests/
+  FarFlow.ModelHost.Tests/
+  FarFlow.IntegrationTests/
+benchmarks/                   harness + invented/reviewed public-safe text; private audio excluded
+packaging/                    primary signed package/update configuration
+scripts/                      Windows setup/build/test/package/verification entry points
+artifacts/                    ignored local outputs

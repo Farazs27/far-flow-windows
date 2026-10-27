@@ -1,0 +1,76 @@
+{
+  "status": "RESEARCH CANDIDATES \u2014 NOT AN INSTALLER MANIFEST",
+  "date": "2026-10-27",
+  "actual_download_hashes_verified": false,
+  "asr_first_candidate": {
+    "repo": "csukuangfj/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8",
+    "revision": "2bda32ec70b097a55adaa07d9a7173915b43cc78",
+    "format": "ONNX int8 TDT",
+    "payload_bytes": 670478772,
+    "feature_dimensions": 128,
+    "license_gate": "Original NVIDIA source CC-BY-4.0; derivative metadata has no declared license badge. Verify attribution/notices for exact selected pack before redistribution.",
+    "files": [
+      {
+        "path": "decoder.int8.onnx",
+        "bytes": 11845275,
+        "publisher_sha256": "179e50c43d1a9de79c8a24149a2f9bac6eb5981823f2a2ed88d655b24248db4e",
+        "hash_status": "publisher metadata only"
+      },
+      {
+        "path": "encoder.int8.onnx",
+        "bytes": 652184281,
+        "publisher_sha256": "acfc2b4456377e15d04f0243af540b7fe7c992f8d898d751cf134c3a55fd2247",
+        "hash_status": "publisher metadata only"
+      },
+      {
+        "path": "joiner.int8.onnx",
+        "bytes": 6355277,
+        "publisher_sha256": "3164c13fc2821009440d20fcb5fdc78bff28b4db2f8d0f0b329101719c0948b3",
+        "hash_status": "publisher metadata only"
+      },
+      {
+        "path": "tokens.txt",
+        "bytes": 93939,
+        "publisher_sha256": null,
+        "hash_status": "SHA-256 still required; Git object oid is not SHA-256"
+      }
+    ]
+  },
+  "writer_exact_checkpoint": "Qwen/Qwen3-4B-Instruct-2507",
+  "writer_derivative_candidates": [
+    {
+      "repo": "unsloth/Qwen3-4B-Instruct-2507-GGUF",
+      "revision": "a06e946bb6b655725eafa393f4a9745d460374c9",
+      "base_checkpoint": [
+        "Qwen/Qwen3-4B-Instruct-2507"
+      ],
+      "files": [
+        {
+          "path": "Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+          "bytes": 2497281120,
+          "publisher_sha256": "3605803b982cb64aead44f6c1b2ae36e3acdb41d8e46c8a94c6533bc4c67e597"
+        }
+      ],
+      "status": "Community conversion; provenance/license/template/runtime gates pending"
+    },
+    {
+      "repo": "lmstudio-community/Qwen3-4B-Instruct-2507-GGUF",
+      "revision": "4edb920b6f14e3b9284d4502a6485103d72cde05",
+      "base_checkpoint": "Qwen/Qwen3-4B-Instruct-2507",
+      "files": [
+        {
+          "path": "Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+          "bytes": 2497280448,
+          "publisher_sha256": "8cdb57cbb880d313736a9bc4e3d3d2485f145b5e19cf33783746e753e82641fc"
+        }
+      ],
+      "status": "Community conversion; provenance/license/template/runtime gates pending"
+    }
+  ],
+  "comparisons": [
+    "Multilingual whisper.cpp small / vetted quantized variants",
+    "Multilingual whisper.cpp large-v3-turbo / vetted quantized variants",
+    "Qwen3-ASR-0.6B as an additional research lane"
+  ],
+  "effective_gpu_provider_verified": false
+}

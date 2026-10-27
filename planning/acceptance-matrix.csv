@@ -1,0 +1,37 @@
+id,scenario,required_result,status
+ENV-01,Clean selected Windows host with pinned toolchain,Reproducible restore/build/package and real responsive main window,NOT RUN
+ENV-02,CPU feature/runtime/DLL preflight,Supported ISA/ABI selected; clear unsupported result rather than illegal-instruction crash,NOT RUN
+AUD-01,"Actual endpoint formats, mono/stereo, PCM/Float32","Correct 16 kHz mono ASR input and duration, finite samples, no format crash",NOT RUN
+AUD-02,Bluetooth communications changes; 44.1 output / 48 input; 8–96 kHz cases,Native capture format negotiated per endpoint; converter rebuilt when needed,NOT RUN
+AUD-03,Unplug/default-device switch/privacy denial/suspend/resume,"Capture stops or recovers explicitly, no stuck mic or reused stale buffers",NOT RUN
+AUD-04,200 start/cancel/finish cycles; late callbacks,One active capture; new sessions cannot consume old buffers; no process exits/leaks,NOT RUN
+KEY-01,"Hold/release, double-tap, single short tap, repeat, boundary timestamps",Immediate first-press capture; correct release classification and lock/stop,NOT RUN
+KEY-02,"Lost release, slow UI, clock wrap, lock/sleep, other modifiers/layouts","No indefinite recording, duplicate insertion or AltGr corruption",NOT RUN
+KEY-03,Actual chosen physical key on MSI/gaming/laptop/external keyboards,Setup sees real events; rebinding/conflicts work; no universal Fn claim,NOT RUN
+ASR-01,Reviewed 80 EN / 80 NL / 40 mixed clips,Raw WER/critical tokens scored independently of cleanup; same corpus across candidates,NOT RUN
+ASR-02,Silence/noise/very short words/empty buffers/max duration,No invented insertion in silence fixtures; defined short-word recovery and bounds,NOT RUN
+ASR-03,GPU unavailable/missing DLL/driver change/low VRAM,Proven CPU fallback or clear recovery; no fake GPU-success label,NOT RUN
+ASR-04,Exact int8/FP32/other GPU graph and preprocessing,Correct tokens/features/external weights; effective EP and node placement recorded,NOT RUN
+TXT-01,"Unicode boundaries, accents/composed forms, aliases, snippets",Noncascading longest rule; whole-trigger expansion; no accidental inside-word rewrite,NOT RUN
+TXT-02,"Numbers, dates, currency, email, URL, code identifiers, negations",Accepted cleanup preserves protected fixtures or returns original/review state,NOT RUN
+TXT-03,Writer checkpoint/template and mixed/short language,"No hidden thinking output, silent translation or unsupported semantic-safety claim",NOT RUN
+INS-01,"Cursor/selection captured at stop, then focus changes before/during delivery",No wrong-field insertion; no auto retry after ambiguous/partial output,NOT RUN
+INS-02,Password/UAC/lock/elevated/unreadable provider,Product blocks or recovers to Copy; no blanket admin/UIAccess workaround,NOT RUN
+INS-03,"Partial SendInput, stale UIA element, hung COM provider","UI remains responsive, bounded recovery, honest result confidence",NOT RUN
+CLP-01,User copies text while temporary paste is in flight,User's later clipboard wins; no overwrite during restore,NOT RUN
+CLP-02,Text/HTML/image/delayed/private formats and cloud history,Supported formats preserved safely; original privacy flags respected; no Far Flow history/cloud entry introduced by temporary write or restore,NOT RUN
+TERM-01,Multiline terminal text and trailing newline/control characters,Review/copy-only; never automatic execution; no added Enter,NOT RUN
+BAR-01,Ready/recording/processing/cancel/failure; drag/hover,"Waveform-only recording, correct mic indicator, no editor focus theft",NOT RUN
+BAR-02,"Active-window tracking hover, mixed DPI, monitor removal/taskbar moves","WM_MOUSEACTIVATE guard, stable scaled geometry, visible clamped position",NOT RUN
+MED-01,"Playing/paused player, player changes/disappears, user intervention, failed Try*",Only successful owned pause is eligible for resume; never starts a new player,NOT RUN
+LIFE-01,Main-window X/Quit during each state,Microphone/hook/overlay/tray stop; owned workers gone after bounded shutdown,NOT RUN
+LIFE-02,Force-kill parent during worker creation and active inference,No orphan model worker; creation-time job assignment and no leaked/inherited owner handle,NOT RUN
+LIFE-03,Minimize/open at login/update interactions,Minimize stays available; login opt-in; updates do not interrupt/duplicate sessions,NOT RUN
+DATA-01,"Full backup and dictionary-only JSON, corrupt/future schema, disk full","Explicit schema path, reviewed import, pre-import backup, no silent data reset",NOT RUN
+DATA-02,Retention Off/day/month/keep and manual clear,Both raw/cleaned retention enforced; notes/dictionary not accidentally deleted,NOT RUN
+MOD-01,Interrupted/partial/malicious-path model downloads/imports,Size/hash/path/format validation before activation; old working model retained,NOT RUN
+NET-01,"Network denied after explicit install, including DNS/loopback observation",Full advertised local workflow works; no auto model/tokenizer fetch or inference server,NOT RUN
+UI-01,"Light/dark/High Contrast, text scaling, keyboard/Narrator","Clear accessible controls/focus/status, usable adaptive layout",NOT RUN
+PKG-01,Fresh install/update/rollback/uninstall on standard-user PC,"Expected publisher/signature/icons, no dev-tool dependency, documented data/model outcome",NOT RUN
+PERF-01,Cold/warm CPU/NVIDIA/battery/thermal/low-memory runs,Proposed targets measured with exact configuration; no RSS-only GPU-memory claim,NOT RUN
+PILOT-01,Seven-day real English/Dutch replacement use,"Reviewed defects, no open release blockers, user acceptance of actual compatibility",NOT RUN

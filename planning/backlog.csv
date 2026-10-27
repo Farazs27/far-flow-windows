@@ -1,0 +1,21 @@
+id,phase,task,priority,depends_on,done_when
+W01,1,Windows host and toolchain inventory,Critical,Windows host,Recorded OS/CPU/RAM/GPU/SDK/VS/template inventory
+W02,1,Native packaged WinUI vertical slice,Critical,W01,Responsive real top-level window; native standard-user launch
+W03,1,CPU ASR model bake-off EN/NL/mixed,Critical,W01,"Reviewed corpus, exact artifacts/provider and measured results"
+W04,1,Capture to recognition to Notepad spike,Critical,W02 W03,Local end-to-end result on a real Windows desktop
+W05,1,Package/media/insertion/overlay feasibility,Critical,W02,Chosen package and native interop decisions supported by evidence
+W06,2,WASAPI capture/format/device recovery,Critical,W04,Audio format/route/repeat matrix passes
+W07,2,Timestamped hold and double-tap trigger,Critical,W05,Physical-key edge/boundary/conflict/lost-release tests pass
+W08,2,Owned model worker IPC/lifetime,Critical,W03,Creation-time job assignment; crash/kill leaves no orphan
+W09,3,Safe cursor delivery and clipboard recovery,Critical,W04 W07,App matrix and wrong-target/clipboard/terminal invariants pass
+W10,3,Waveform-only nonactivating DPI-aware bar,High,W05 W07,Drag/hover/monitor/accessibility matrix passes
+W11,3,GSMTC pause ownership,High,W05,No unintended resume across session/user changes
+W12,4,Core rules and language-ID parity,High,W03,Unicode/mixed-language/protected-span golden cases pass
+W13,4,SQLite/history/backup/import/retention,High,W09,Corrupt/future/full-backup/dictionary data tests pass
+W14,4,Dictionary/snippets/styles/transforms/notes/insights,High,W12 W13,Advertised workspace parity verified
+W15,4,Optional same-checkpoint local writer,High,W03 W12,Identity/template/quality/cancel/memory tests pass
+W16,4,Branded adaptive native UI and setup,High,W02 W10 W14,Light/dark/high-contrast/keyboard/Narrator checks pass
+W17,5,Explicit model manager and offline proof,Critical,W03 W08 W15,Hash/staging/path/offline/full-workflow tests pass
+W18,5,CPU/NVIDIA performance and clean installer,Critical,W09 W16 W17,Measured tier matrix and standard-user update/rollback pass
+W19,5,Signing/identity/update path,Critical,W05,Eligible publisher and trusted release package; no reputation guarantee
+W20,6,Seven-day replacement pilot and release evidence,Critical,W18 W19,No release blockers; dated acceptance + genuine Windows screenshots

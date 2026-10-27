@@ -1,0 +1,317 @@
+[
+  {
+    "id": "F1.1",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Parakeet v3 advertises English and Dutch; the int8 Windows conversion still needs personal-voice and mixed-speech evaluation.",
+    "dossier": "research/10-findings-1.md",
+    "validation": "research/20-validation-1.md"
+  },
+  {
+    "id": "F1.2",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Parakeet v2 is an English-only candidate and cannot establish Dutch support.",
+    "dossier": "research/10-findings-1.md",
+    "validation": "research/20-validation-1.md"
+  },
+  {
+    "id": "F1.3",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "The inspected Parakeet v3 int8 payload has encoder, decoder, joiner and tokens totaling 670,478,772 bytes; configuration and derivative notices remain separate gates.",
+    "dossier": "research/10-findings-1.md",
+    "validation": "research/20-validation-1.md"
+  },
+  {
+    "id": "F1.4",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Managed sherpa C# bindings and Windows native packages exist; ABI/RID/provider packaging must be tested in Far Flow.",
+    "dossier": "research/10-findings-1.md",
+    "validation": "research/20-validation-1.md"
+  },
+  {
+    "id": "F1.5",
+    "verdict": "PARTIAL",
+    "corrected_summary": "Provider requests may fall back or partition onto CPU; validate actual initialization, node placement, dtype correctness and speed, rather than a provider string.",
+    "dossier": "research/10-findings-1.md",
+    "validation": "research/20-validation-1.md"
+  },
+  {
+    "id": "F1.6",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Multilingual Whisper small/turbo and quantized artifacts exist; .en variants are a different language scope.",
+    "dossier": "research/10-findings-1.md",
+    "validation": "research/20-validation-1.md"
+  },
+  {
+    "id": "F1.7",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "whisper.cpp supports Windows CPU/CUDA/Vulkan build paths; tagged source and binary/nightly distribution are distinct evidence.",
+    "dossier": "research/10-findings-1.md",
+    "validation": "research/20-validation-1.md"
+  },
+  {
+    "id": "F1.8",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Compiled Core ML artifacts are platform backend outputs, not Windows runtime inputs; source models can be evaluated in different conversions.",
+    "dossier": "research/10-findings-1.md",
+    "validation": "research/20-validation-1.md"
+  },
+  {
+    "id": "F1.9",
+    "verdict": "PARTIAL",
+    "corrected_summary": "Generic Qwen3-4B is not the Mac Instruct-2507 checkpoint. Vetted community GGUFs of the exact non-thinking checkpoint are separate candidates.",
+    "dossier": "research/10-findings-1.md",
+    "validation": "research/20-validation-1.md"
+  },
+  {
+    "id": "F1.10",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Runtime memory includes weights, KV/context and compute buffers; disk bytes alone cannot prove RTX 3070 fit.",
+    "dossier": "research/10-findings-1.md",
+    "validation": "research/20-validation-1.md"
+  },
+  {
+    "id": "F1.11",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Qwen3-ASR has documented Dutch coverage as an additional candidate, without a Windows export/provider/performance result here.",
+    "dossier": "research/10-findings-1.md",
+    "validation": "research/20-validation-1.md"
+  },
+  {
+    "id": "F1.12",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Model files exercise native parsers. Hash identity and helper processes do not establish a malicious-model sandbox.",
+    "dossier": "research/10-findings-1.md",
+    "validation": "research/20-validation-1.md"
+  },
+  {
+    "id": "F2.1",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Fn is not a universal standalone Windows trigger; an ordinary detected/rebindable key is required for a broad PC product.",
+    "dossier": "research/10-findings-2.md",
+    "validation": "research/20-validation-2.md"
+  },
+  {
+    "id": "F2.2",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "RegisterHotKey provides press notification, not a global key-up contract for hold-to-talk.",
+    "dossier": "research/10-findings-2.md",
+    "validation": "research/20-validation-2.md"
+  },
+  {
+    "id": "F2.3",
+    "verdict": "PARTIAL",
+    "corrected_summary": "Slow low-level hooks can cease receiving events; return immediately and use timestamped edge events. Exact timeout details have narrower independent corroboration.",
+    "dossier": "research/10-findings-2.md",
+    "validation": "research/20-validation-2.md"
+  },
+  {
+    "id": "F2.4",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "WASAPI shared capture can use the endpoint mix format; ASR normalization remains an explicit contract, with application or engine conversion choices.",
+    "dossier": "research/10-findings-2.md",
+    "validation": "research/20-validation-2.md"
+  },
+  {
+    "id": "F2.5",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Direct capture clients own endpoint/format-change handling; Bluetooth communications modes expand the rate/channel test matrix.",
+    "dossier": "research/10-findings-2.md",
+    "validation": "research/20-validation-2.md"
+  },
+  {
+    "id": "F2.6",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "ValuePattern sets a value, not an arbitrary caret insertion; TextPattern itself is read-only. Pattern coexistence is possible.",
+    "dossier": "research/10-findings-2.md",
+    "validation": "research/20-validation-2.md"
+  },
+  {
+    "id": "F2.7",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Ordinary SendInput is constrained by integrity levels; secure/password detection and safe copy recovery are product responsibilities.",
+    "dossier": "research/10-findings-2.md",
+    "validation": "research/20-validation-2.md"
+  },
+  {
+    "id": "F2.8",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Unicode input routes to the foreground thread, so target validation is not an atomic delivery transaction; clipboard/terminal recovery needs explicit policy.",
+    "dossier": "research/10-findings-2.md",
+    "validation": "research/20-validation-2.md"
+  },
+  {
+    "id": "F2.9",
+    "verdict": "PARTIAL",
+    "corrected_summary": "Nonactivating HWND styles need nonactivating API use, DPI/monitor handling and a WM_MOUSEACTIVATE hover guard.",
+    "dossier": "research/10-findings-2.md",
+    "validation": "research/20-validation-2.md"
+  },
+  {
+    "id": "F2.10",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "GSMTC exposes cooperating media sessions, not every audio producer; exact package/capability behavior remains a Windows spike.",
+    "dossier": "research/10-findings-2.md",
+    "validation": "research/20-validation-2.md"
+  },
+  {
+    "id": "F2.11",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Media pause success is not a causal ownership token. Retain the exact session and abandon ambiguous resume ownership.",
+    "dossier": "research/10-findings-2.md",
+    "validation": "research/20-validation-2.md"
+  },
+  {
+    "id": "F2.12",
+    "verdict": "PARTIAL",
+    "corrected_summary": "Kill-on-last-job-handle-close supports owned lifetime; use creation-time job assignment and noninherited sole ownership to avoid the late-assignment orphan window.",
+    "dossier": "research/10-findings-2.md",
+    "validation": "research/20-validation-2.md"
+  },
+  {
+    "id": "F3.1",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "As of the research date, .NET 10 is LTS; catalog metadata shows SDK 10.0.403 / runtime 10.0.14.",
+    "dossier": "research/10-findings-3.md",
+    "validation": "research/20-validation-3.md"
+  },
+  {
+    "id": "F3.2",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "As of the research date, the highest stable Windows App SDK package is 2.5.1, not a newer-dated servicing patch from an older major line.",
+    "dossier": "research/10-findings-3.md",
+    "validation": "research/20-validation-3.md"
+  },
+  {
+    "id": "F3.3",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Microsoft recommends WinUI for new native Windows UI; task-specific framework tradeoffs still require a feasibility gate.",
+    "dossier": "research/10-findings-3.md",
+    "validation": "research/20-validation-3.md"
+  },
+  {
+    "id": "F3.4",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Framework runtime floors and edition-specific Windows servicing are different from the product support/test policy.",
+    "dossier": "research/10-findings-3.md",
+    "validation": "research/20-validation-3.md"
+  },
+  {
+    "id": "F3.5",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "A normal full-trust WinUI MSIX is not the UWP AppContainer model; activation/manifest attributes matter.",
+    "dossier": "research/10-findings-3.md",
+    "validation": "research/20-validation-3.md"
+  },
+  {
+    "id": "F3.6",
+    "verdict": "PARTIAL",
+    "corrected_summary": "Both .NET and Windows App SDK runtime closure matter. Single-file guidance conflicts and self-extraction is not the baseline delivery promise.",
+    "dossier": "research/10-findings-3.md",
+    "validation": "research/20-validation-3.md"
+  },
+  {
+    "id": "F3.7",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Microphone/media declarations and access depend on app model; actual signed deployment must be tested.",
+    "dossier": "research/10-findings-3.md",
+    "validation": "research/20-validation-3.md"
+  },
+  {
+    "id": "F3.8",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Normal WinUI desktop backgrounding is not UWP suspension; close/minimize/worker lifetime remain app-owned behavior.",
+    "dossier": "research/10-findings-3.md",
+    "validation": "research/20-validation-3.md"
+  },
+  {
+    "id": "F3.9",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Signing does not guarantee immediate SmartScreen reputation; actual publisher eligibility and certificate trust remain provisioning gates.",
+    "dossier": "research/10-findings-3.md",
+    "validation": "research/20-validation-3.md"
+  },
+  {
+    "id": "F3.10",
+    "verdict": "PARTIAL",
+    "corrected_summary": "App Installer supports managed updates, but prompt/block behavior varies with app model/launch source and must be tested.",
+    "dossier": "research/10-findings-3.md",
+    "validation": "research/20-validation-3.md"
+  },
+  {
+    "id": "F3.11",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "A pure native ARM64 process requires matching native binaries; emulation/ARM64EC and separate-worker architectures are distinct lanes.",
+    "dossier": "research/10-findings-3.md",
+    "validation": "research/20-validation-3.md"
+  },
+  {
+    "id": "F3.12",
+    "verdict": "PARTIAL",
+    "corrected_summary": "This macOS planning session has no Windows execution evidence. Actual runner images differ; select an explicit VS2026 image/toolchain instead of assuming windows-2025 contains it.",
+    "dossier": "research/10-findings-3.md",
+    "validation": "research/20-validation-3.md"
+  },
+  {
+    "id": "F4.1",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "The audited public Mac tree targets macOS/arm64 and has no Windows project in that revision.",
+    "dossier": "research/10-findings-4.md",
+    "validation": "research/20-validation-4.md"
+  },
+  {
+    "id": "F4.2",
+    "verdict": "PARTIAL",
+    "corrected_summary": "The current app/artifacts are Mac-targeted and unvalidated on Windows; do not generalize that MLX/MLX Swift is universally Mac-only.",
+    "dossier": "research/10-findings-4.md",
+    "validation": "research/20-validation-4.md"
+  },
+  {
+    "id": "F4.3",
+    "verdict": "PARTIAL",
+    "corrected_summary": "The Mac gesture starts capture on first press; 220 ms classifies release/hold behavior and 350 ms is the configured second-tap window, not a delayed start.",
+    "dossier": "research/10-findings-4.md",
+    "validation": "research/20-validation-4.md"
+  },
+  {
+    "id": "F4.4",
+    "verdict": "PARTIAL",
+    "corrected_summary": "Full UserData backup JSON uses an explicit ISO-8601 path; dictionary-only JSON and internal SQLite serialization are different contracts.",
+    "dossier": "research/10-findings-4.md",
+    "validation": "research/20-validation-4.md"
+  },
+  {
+    "id": "F4.5",
+    "verdict": "PARTIAL",
+    "corrected_summary": "Portable rule concepts coexist with Apple language-ID/culture behavior; full Unicode/noncascading/mixed-language parity needs expanded fixtures.",
+    "dossier": "research/10-findings-4.md",
+    "validation": "research/20-validation-4.md"
+  },
+  {
+    "id": "F4.6",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Mac bundle identifiers, integer audio device IDs and Fn preferences require explicit Windows mapping/reset policies.",
+    "dossier": "research/10-findings-4.md",
+    "validation": "research/20-validation-4.md"
+  },
+  {
+    "id": "F4.7",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "The current product intentionally quits on main-window close and distinguishes minimize; source paths are not universal forced-kill runtime proof.",
+    "dossier": "research/10-findings-4.md",
+    "validation": "research/20-validation-4.md"
+  },
+  {
+    "id": "F4.8",
+    "verdict": "PARTIAL",
+    "corrected_summary": "The Mac record reports 50 passing tests; definitions and synthetic results were corroborated, but the validator did not rerun XCTest. None is Windows evidence.",
+    "dossier": "research/10-findings-4.md",
+    "validation": "research/20-validation-4.md"
+  },
+  {
+    "id": "F4.9",
+    "verdict": "CONFIRMED",
+    "corrected_summary": "Approved F/artwork/font sources are available with separate font terms; choose independently licensed Windows icon/sound assets.",
+    "dossier": "research/10-findings-4.md",
+    "validation": "research/20-validation-4.md"
+  }
+]

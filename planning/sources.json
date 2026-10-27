@@ -1,0 +1,2138 @@
+[
+  {
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.windowsappsdk/index.json",
+    "title": "NuGet flat-container version inventory",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://api.nuget.org/v3-flatcontainer/org.k2fsa.sherpa.onnx.runtime.win-x64/2.0.1/org.k2fsa.sherpa.onnx.runtime.win-x64.nuspec",
+    "title": "api.nuget.org/v3-flatcontainer/org.k2fsa.sherpa.onnx.runtime.win-x64/2.0.1/org.k2fsa.sherpa.onnx.runtime.win-x64.nuspec",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/abs/2212.04356",
+    "title": "arxiv.org/abs/2212.04356",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/html/2509.14128v2",
+    "title": "arxiv.org/html/2509.14128v2",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://build.nvidia.com/nvidia/parakeet-tdt-0_6b-v2",
+    "title": "build.nvidia.com/nvidia/parakeet-tdt-0_6b-v2",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/10.0/releases.json",
+    "title": "machine-readable .NET 10 release metadata",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+    "title": "creativecommons.org/licenses/by/4.0/legalcode.en",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/",
+    "title": "devblogs.microsoft.com/dotnet/announcing-dotnet-10/",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://devblogs.microsoft.com/oldnewthing/20230209-00/?p=107812",
+    "title": "Microsoft engineering explanation of creation-time job assignment",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://devblogs.microsoft.com/oldnewthing/20231108-00/?p=108980",
+    "title": "Microsoft's C++/C# console example",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md",
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://devblogs.microsoft.com/oldnewthing/20240919-00/?p=110283",
+    "title": "Raymond Chen's no-activate counterexample",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://developer.apple.com/documentation/foundation/jsonencoder/dateencodingstrategy-swift.enum",
+    "title": "date strategies",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://developer.apple.com/documentation/foundation/jsonencoder/dateencodingstrategy-swift.property",
+    "title": "Apple JSONEncoder dateEncodingStrategy",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://developer.apple.com/documentation/naturallanguage/identifying-the-language-in-text",
+    "title": "Identifying the language in text",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://developer.apple.com/documentation/naturallanguage/nllanguagerecognizer",
+    "title": "Apple NLLanguageRecognizer",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://developer.apple.com/sf-symbols/",
+    "title": "SF Symbols",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://docs.avaloniaui.net/docs/platform-specific-guides/windows/",
+    "title": "docs.avaloniaui.net/docs/platform-specific-guides/windows/",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://docs.avaloniaui.net/troubleshooting/platform-specific-issues/windows",
+    "title": "docs.avaloniaui.net/troubleshooting/platform-specific-issues/windows",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://docs.github.com/en/actions/concepts/runners/larger-runners",
+    "title": "docs.github.com/en/actions/concepts/runners/larger-runners",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://docs.github.com/en/actions/how-tos/write-workflows/choose-where-workflows-run/choose-the-runner-for-a-job",
+    "title": "docs.github.com/en/actions/how-tos/write-workflows/choose-where-workflows-run/choose-the-runner-for-a-job",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://docs.github.com/en/actions/reference/runners/github-hosted-runners",
+    "title": "GitHub-hosted runners reference",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://docs.nvidia.com/nemo/speech/nightly/asr/asr_checkpoints.html",
+    "title": "docs.nvidia.com/nemo/speech/nightly/asr/asr_checkpoints.html",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://dotnet.microsoft.com/en-us/download/dotnet/10.0",
+    "title": "dotnet.microsoft.com/en-us/download/dotnet/10.0",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core",
+    "title": "dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://github.blog/changelog/2026-05-14-github-actions-upcoming-image-migrations/",
+    "title": "github.blog/changelog/2026-05-14-github-actions-upcoming-image-migrations/",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://github.com/AutoHotkey/AutoHotkeyDocs/blob/7951621f191be3389005e95a707288c8c2da164a/docs/lib/_HotIfTimeout.htm",
+    "title": "AutoHotkey implementation-author timeout documentation",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Azure/artifact-signing-action/blob/main/README.md",
+    "title": "github.com/Azure/artifact-signing-action/blob/main/README.md",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/.github/workflows/source-checks.yml",
+    "title": "CI workflow",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/Benchmarks/Results/summary.json",
+    "title": "raw summary results",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow.xcodeproj/project.pbxproj",
+    "title": "Generated Xcode project",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/App/AppModel.swift",
+    "title": "AppModel",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/App/AudioCapture.swift",
+    "title": "AudioCapture",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/App/FarFlowApp.swift",
+    "title": "github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/App/FarFlowApp.swift",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/App/InsertionService.swift",
+    "title": "github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/App/InsertionService.swift",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/App/ShortcutService.swift",
+    "title": "ShortcutService event adapter",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/Resources/Fonts/ZalandoSans-OFL.txt",
+    "title": "github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/Resources/Fonts/ZalandoSans-OFL.txt",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/Resources/ModelManifest.json",
+    "title": "github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/Resources/ModelManifest.json",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/Views/PersonalizationViews.swift",
+    "title": "separate dictionary import/export UI",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/Views/RootView.swift",
+    "title": "github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/Views/RootView.swift",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/Views/SettingsViews.swift",
+    "title": "model setup UI",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlow/Views/Theme.swift",
+    "title": "Theme registration/SF Symbols use",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlowBench/BenchMain.swift",
+    "title": "Benchmark driver",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlowCore/FnGesture.swift",
+    "title": "github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlowCore/FnGesture.swift",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlowCore/Inference.swift",
+    "title": "github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlowCore/Inference.swift",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlowCore/LocalStore.swift",
+    "title": "github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlowCore/LocalStore.swift",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlowCore/Models.swift",
+    "title": "github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlowCore/Models.swift",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlowCore/TextPipeline.swift",
+    "title": "github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlowCore/TextPipeline.swift",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlowTests/AudioEngineBridgeTests.m",
+    "title": "Objective-C bridge test",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlowTests/FarFlowTests.swift",
+    "title": "FnGestureTests",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlowTests/MediaPlaybackTests.swift",
+    "title": "termination media test",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/docs/BRANDING.md",
+    "title": "branding guide",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/docs/THIRD-PARTY-NOTICES.txt",
+    "title": "Third-party notices",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/docs/USING-FAR-FLOW.md",
+    "title": "usage guide",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/docs/VERIFICATION.md",
+    "title": "github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/docs/VERIFICATION.md",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/project.yml",
+    "title": "github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/project.yml",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/scripts/build.sh",
+    "title": "build script",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/blob/ccb628adbeea97ed898c35f1f83b21188815c32b/scripts/render_brand.swift",
+    "title": "Brand renderer",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/tree/ccb628adbeea97ed898c35f1f83b21188815c32b/FarFlowTests",
+    "title": "Swift test files",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/Farazs27/far-flow/tree/ccb628adbeea97ed898c35f1f83b21188815c32b/brand/assets",
+    "title": "github.com/Farazs27/far-flow/tree/ccb628adbeea97ed898c35f1f83b21188815c32b/brand/assets",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/MicrosoftDocs/windows-dev-docs/blob/docs/hub/apps/get-started/windows-developer-faq.md",
+    "title": "github.com/MicrosoftDocs/windows-dev-docs/blob/docs/hub/apps/get-started/windows-developer-faq.md",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://github.com/MicrosoftDocs/windows-dev-docs/blob/docs/hub/apps/package-and-deploy/publish-first-app.md",
+    "title": "github.com/MicrosoftDocs/windows-dev-docs/blob/docs/hub/apps/package-and-deploy/publish-first-app.md",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen3",
+    "title": "github.com/QwenLM/Qwen3",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen3-ASR",
+    "title": "github.com/QwenLM/Qwen3-ASR",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/actions/runner-images/blob/main/images/windows/Windows2025-Readme.md",
+    "title": "Windows2025 image manifest",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://github.com/actions/runner-images/blob/main/images/windows/Windows2025-VS2026-Readme.md",
+    "title": "Windows2025-VS2026 manifest",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://github.com/dotnet/core/blob/main/release-notes/10.0/10.0.14/10.0.14.md",
+    "title": "github.com/dotnet/core/blob/main/release-notes/10.0/10.0.14/10.0.14.md",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/ggml/discussions/1579",
+    "title": "github.com/ggml-org/ggml/discussions/1579",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp/blob/v0.7.0/README.md",
+    "title": "github.com/ggml-org/llama.cpp/blob/v0.7.0/README.md",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp/blob/v0.7.0/SECURITY.md",
+    "title": "github.com/ggml-org/llama.cpp/blob/v0.7.0/SECURITY.md",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp/blob/v0.7.0/docs/build.md",
+    "title": "github.com/ggml-org/llama.cpp/blob/v0.7.0/docs/build.md",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp/blob/v0.7.0/src/llama-context.cpp",
+    "title": "github.com/ggml-org/llama.cpp/blob/v0.7.0/src/llama-context.cpp",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp/discussions/9936",
+    "title": "github.com/ggml-org/llama.cpp/discussions/9936",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/llama.cpp/security/advisories/GHSA-96jg-mvhq-q7q7",
+    "title": "github.com/ggml-org/llama.cpp/security/advisories/GHSA-96jg-mvhq-q7q7",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/whisper.cpp/blob/v1.9.5/.github/workflows/build-windows.yml",
+    "title": "github.com/ggml-org/whisper.cpp/blob/v1.9.5/.github/workflows/build-windows.yml",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/whisper.cpp/blob/v1.9.5/.github/workflows/release.yml",
+    "title": "github.com/ggml-org/whisper.cpp/blob/v1.9.5/.github/workflows/release.yml",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/whisper.cpp/blob/v1.9.5/README.md",
+    "title": "github.com/ggml-org/whisper.cpp/blob/v1.9.5/README.md",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/whisper.cpp/blob/v1.9.5/README.md#core-ml-support",
+    "title": "github.com/ggml-org/whisper.cpp/blob/v1.9.5/README.md",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/whisper.cpp/blob/v1.9.5/ggml/CMakeLists.txt",
+    "title": "github.com/ggml-org/whisper.cpp/blob/v1.9.5/ggml/CMakeLists.txt",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/whisper.cpp/blob/v1.9.5/ggml/src/ggml-vulkan/CMakeLists.txt",
+    "title": "github.com/ggml-org/whisper.cpp/blob/v1.9.5/ggml/src/ggml-vulkan/CMakeLists.txt",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/whisper.cpp/blob/v1.9.5/models/convert-pt-to-ggml.py",
+    "title": "github.com/ggml-org/whisper.cpp/blob/v1.9.5/models/convert-pt-to-ggml.py",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/whisper.cpp/blob/v1.9.5/models/download-ggml-model.sh",
+    "title": "github.com/ggml-org/whisper.cpp/blob/v1.9.5/models/download-ggml-model.sh",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/whisper.cpp/blob/v1.9.5/src/CMakeLists.txt",
+    "title": "github.com/ggml-org/whisper.cpp/blob/v1.9.5/src/CMakeLists.txt",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/whisper.cpp/issues/3889",
+    "title": "github.com/ggml-org/whisper.cpp/issues/3889",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.5",
+    "title": "github.com/ggml-org/whisper.cpp/releases/tag/v1.9.5",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/handy-computer/transcribe.cpp/blob/main/docs/models/parakeet-tdt-0.6b-v2.md",
+    "title": "github.com/handy-computer/transcribe.cpp/blob/main/docs/models/parakeet-tdt-0.6b-v2.md",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/handy-computer/transcribe.cpp/blob/main/docs/models/parakeet-tdt-0.6b-v3.md",
+    "title": "github.com/handy-computer/transcribe.cpp/blob/main/docs/models/parakeet-tdt-0.6b-v3.md",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/cmake/onnxruntime-win-x64-directml.cmake",
+    "title": "github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/cmake/onnxruntime-win-x64-directml.cmake",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/scripts/dotnet/OfflineQwen3AsrModelConfig.cs",
+    "title": "github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/scripts/dotnet/OfflineQwen3AsrModelConfig.cs",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/scripts/dotnet/OfflineRecognizer.cs",
+    "title": "github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/scripts/dotnet/OfflineRecognizer.cs",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/scripts/dotnet/sherpa-onnx.csproj.in",
+    "title": "github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/scripts/dotnet/sherpa-onnx.csproj.in",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/scripts/dotnet/sherpa-onnx.csproj.runtime.in",
+    "title": "github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/scripts/dotnet/sherpa-onnx.csproj.runtime.in",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/scripts/nemo/parakeet-tdt-0.6b-v3/export_onnx.py",
+    "title": "github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/scripts/nemo/parakeet-tdt-0.6b-v3/export_onnx.py",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/scripts/nemo/parakeet-tdt-0.6b-v3/run.sh",
+    "title": "github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/scripts/nemo/parakeet-tdt-0.6b-v3/run.sh",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/sherpa-onnx/csrc/session.cc",
+    "title": "github.com/k2-fsa/sherpa-onnx/blob/v2.0.1/sherpa-onnx/csrc/session.cc",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/k2-fsa/sherpa-onnx/issues/2842",
+    "title": "github.com/k2-fsa/sherpa-onnx/issues/2842",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/k2-fsa/sherpa-onnx/issues/3885",
+    "title": "github.com/k2-fsa/sherpa-onnx/issues/3885",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/microsoft/PowerToys/issues/50980",
+    "title": "issue 50980",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://github.com/microsoft/WinAppDriver/blob/master/Docs/CI_AzureDevOps.md",
+    "title": "github.com/microsoft/WinAppDriver/blob/master/Docs/CI_AzureDevOps.md",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://github.com/microsoft/Windows-classic-samples/blob/8f31b1ff79d669b4ba9609f2640635b3b8a9e0a4/Samples/Win7Samples/multimedia/audio/CaptureSharedEventDriven/WASAPICapture.cpp",
+    "title": "shared-event capture sample source",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://github.com/microsoft/WindowsAppSDK/releases",
+    "title": "github.com/microsoft/WindowsAppSDK/releases",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://github.com/microsoft/WindowsAppSDK/releases/tag/v2.5.1",
+    "title": "github.com/microsoft/WindowsAppSDK/releases/tag/v2.5.1",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://github.com/microsoft/onnxruntime/blob/main/docs/FAQ.md",
+    "title": "github.com/microsoft/onnxruntime/blob/main/docs/FAQ.md",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/microsoft/onnxruntime/discussions/26735",
+    "title": "github.com/microsoft/onnxruntime/discussions/26735",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/microsoft/windows-rs/blob/a6b6ef58f8efb2f2bdef86a2f6cd5f768eb7c545/crates/libs/windows/src/Windows/Media/Control/mod.rs",
+    "title": "Microsoft-generated Windows media bindings",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ml-explore/mlx-swift/blob/0.32.3/README.md",
+    "title": "upstream MLX Swift 0.32.3 README",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/ml-explore/mlx-swift/releases",
+    "title": "upstream releases",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://github.com/openai/whisper/blob/main/README.md",
+    "title": "github.com/openai/whisper/blob/main/README.md",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/openai/whisper/blob/main/whisper/tokenizer.py",
+    "title": "github.com/openai/whisper/blob/main/whisper/tokenizer.py",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://github.com/zalando/sans/blob/main/OFL.txt",
+    "title": "Zalando's own OFL",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-4.md"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3-4B-GGUF",
+    "title": "huggingface.co/Qwen/Qwen3-4B-GGUF",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
+    "title": "huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3-8B-GGUF",
+    "title": "huggingface.co/Qwen/Qwen3-8B-GGUF",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3-ASR-0.6B",
+    "title": "huggingface.co/Qwen/Qwen3-ASR-0.6B",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/api/models/csukuangfj/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8/tree/2bda32ec70b097a55adaa07d9a7173915b43cc78?recursive=true&expand=false",
+    "title": "huggingface.co/api/models/csukuangfj/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8/tree/2bda32ec70b097a55adaa07d9a7173915b43cc78",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/api/models?author=Qwen&search=Qwen3-4B-Instruct-2507&limit=100",
+    "title": "huggingface.co/api/models",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/docs/optimum-onnx/main/en/onnxruntime/usage_guides/gpu",
+    "title": "huggingface.co/docs/optimum-onnx/main/en/onnxruntime/usage_guides/gpu",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/ggerganov/whisper.cpp/tree/5359861c739e955e79d9a303bcbc70fb988958b1",
+    "title": "huggingface.co/ggerganov/whisper.cpp/tree/5359861c739e955e79d9a303bcbc70fb988958b1",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2",
+    "title": "huggingface.co/nvidia/parakeet-tdt-0.6b-v2",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
+    "title": "huggingface.co/nvidia/parakeet-tdt-0.6b-v3",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/openai/whisper-large-v3-turbo",
+    "title": "huggingface.co/openai/whisper-large-v3-turbo",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://jrsoftware.org/ishelp/topic_setup_privilegesrequired.htm",
+    "title": "jrsoftware.org/ishelp/topic_setup_privilegesrequired.htm",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://k2-fsa.github.io/sherpa/onnx/csharp-api/index.html",
+    "title": "k2-fsa.github.io/sherpa/onnx/csharp-api/index.html",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://k2-fsa.github.io/sherpa/onnx/install/windows/generated/download/windows_x64.html",
+    "title": "k2-fsa.github.io/sherpa/onnx/install/windows/generated/download/windows_x64.html",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://k2-fsa.github.io/sherpa/onnx/pretrained_models/offline-transducer/nemo-transducer-models.html",
+    "title": "k2-fsa.github.io/sherpa/onnx/pretrained_models/offline-transducer/nemo-transducer-models.html",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://k2-fsa.github.io/sherpa/onnx/qwen3-asr/pretrained.html",
+    "title": "k2-fsa.github.io/sherpa/onnx/qwen3-asr/pretrained.html",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-gb/windows/msix/app-installer/auto-update-and-repair--overview",
+    "title": "learn.microsoft.com/en-gb/windows/msix/app-installer/auto-update-and-repair--overview",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-ie/windows/ai/new-windows-ml/supported-execution-providers",
+    "title": "learn.microsoft.com/en-ie/windows/ai/new-windows-ml/supported-execution-providers",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/answers/questions/5806673/fn-key-stuck-unable-to-do-any-writing",
+    "title": "a Microsoft-hosted Q&A answer about a ThinkPad",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/artifact-signing/quickstart",
+    "title": "Artifact Signing setup prerequisites",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dotnet/api/system.windows.automation.provider.ivalueprovider.setvalue?view=windowsdesktop-10.0",
+    "title": "managed provider example",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dotnet/core/deploying/",
+    "title": ".NET publishing modes",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview",
+    "title": ".NET single-file deployment",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dotnet/core/install/windows",
+    "title": "learn.microsoft.com/en-us/dotnet/core/install/windows",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dotnet/core/versions/selection",
+    "title": "runtime version selection",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dotnet/desktop-wpf/overview/index",
+    "title": "learn.microsoft.com/en-us/dotnet/desktop-wpf/overview/index",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dotnet/framework/ui-automation/ui-automation-textpattern-overview",
+    "title": "TextPattern Overview",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/dotnet/framework/ui-automation/ui-automation-threading-issues",
+    "title": "UI Automation Threading Issues",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/gaming/gdk/docs/gdk-dev/pc-dev/tutorials/get-started-with-custom-engine/native-aot-for-gaming?view=gdk-2604",
+    "title": "learn.microsoft.com/en-us/gaming/gdk/docs/gdk-dev/pc-dev/tutorials/get-started-with-custom-engine/native-aot-for-gaming",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/lifecycle/products/windows-10-home-and-pro",
+    "title": "learn.microsoft.com/en-us/lifecycle/products/windows-10-home-and-pro",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/lifecycle/products/windows-11-home-and-pro",
+    "title": "Windows 11 Home and Pro lifecycle",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/legacy/ms644985(v=vs.85)",
+    "title": "LowLevelKeyboardProc",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/samples/microsoft/windowsappsdk-samples/windowsaisamples/",
+    "title": "Official Windows AI sample deployment instructions",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/troubleshoot/power-platform/power-automate/desktop-flows/ui-automation/uipi-issues",
+    "title": "Power Automate UIPI troubleshooting",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/uwp/api/windows.media.control.globalsystemmediatransportcontrolssession.trypauseasync?view=winrt-26100",
+    "title": "GSMTC TryPauseAsync",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/uwp/api/windows.media.control.globalsystemmediatransportcontrolssession?view=winrt-26100",
+    "title": "GSMTC session class",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/uwp/api/windows.media.control.globalsystemmediatransportcontrolssessionmanager.getcurrentsession?view=winrt-26100",
+    "title": "GetCurrentSession",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/uwp/api/windows.media.control.globalsystemmediatransportcontrolssessionmanager?view=winrt-28000",
+    "title": "learn.microsoft.com/en-us/uwp/api/windows.media.control.globalsystemmediatransportcontrolssessionmanager",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/uwp/api/windows.media.control?view=winrt-26100",
+    "title": "Windows.Media.Control namespace",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/uwp/schemas/appinstallerschema/element-onlaunch",
+    "title": "OnLaunch schema",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/uwp/schemas/appinstallerschema/element-update-settings",
+    "title": "UpdateSettings schema",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/uwp/schemas/appxpackage/uapmanifestschema/element-f-application",
+    "title": "Application manifest schema",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/uwp/schemas/appxpackage/uapmanifestschema/element-uap7-capability",
+    "title": "uap7:Capability manifest schema",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md",
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/",
+    "title": "Windows app development entry point",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/dev-tools/winapp-cli/security",
+    "title": "learn.microsoft.com/en-us/windows/apps/dev-tools/winapp-cli/security",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/develop/launch/app-lifecycle",
+    "title": "learn.microsoft.com/en-us/windows/apps/develop/launch/app-lifecycle",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/get-started/start-here",
+    "title": "learn.microsoft.com/en-us/windows/apps/get-started/start-here",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/get-started/versioning-overview",
+    "title": "learn.microsoft.com/en-us/windows/apps/get-started/versioning-overview",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/get-started/windows-developer-faq",
+    "title": "Windows developer FAQ",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/get-started/windows-developer-glossary",
+    "title": "Windows developer glossary",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/app-capability-declarations",
+    "title": "App capability declarations",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md",
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/code-signing-options",
+    "title": "Code signing options",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/deploy-overview",
+    "title": "learn.microsoft.com/en-us/windows/apps/package-and-deploy/deploy-overview",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/project-properties",
+    "title": "learn.microsoft.com/en-us/windows/apps/package-and-deploy/project-properties",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/self-contained-deploy/deploy-self-contained-apps",
+    "title": "learn.microsoft.com/en-us/windows/apps/package-and-deploy/self-contained-deploy/deploy-self-contained-apps",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/unpackage-winui-app",
+    "title": "learn.microsoft.com/en-us/windows/apps/package-and-deploy/unpackage-winui-app",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/whats-new/coming-to-windows",
+    "title": "Coming to Windows development",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/applifecycle/applifecycle",
+    "title": "learn.microsoft.com/en-us/windows/apps/windows-app-sdk/applifecycle/applifecycle",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/deploy-unpackaged-apps",
+    "title": "learn.microsoft.com/en-us/windows/apps/windows-app-sdk/deploy-unpackaged-apps",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads",
+    "title": "learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/background-task-migration-strategy",
+    "title": "Background task migration strategy",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/release-notes/windows-app-sdk-1-8?pivots=stable",
+    "title": "learn.microsoft.com/en-us/windows/apps/windows-app-sdk/release-notes/windows-app-sdk-1-8",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/release-notes/windows-app-sdk-2-0?pivots=stable",
+    "title": "learn.microsoft.com/en-us/windows/apps/windows-app-sdk/release-notes/windows-app-sdk-2-0",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/support",
+    "title": "learn.microsoft.com/en-us/windows/apps/windows-app-sdk/support",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/windows-sdk/",
+    "title": "learn.microsoft.com/en-us/windows/apps/windows-sdk/",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/apps/winui/winui3/",
+    "title": "learn.microsoft.com/en-us/windows/apps/winui/winui3/",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/arm/add-arm-support",
+    "title": "learn.microsoft.com/en-us/windows/arm/add-arm-support",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/arm/arm64ec",
+    "title": "Arm64EC interoperability",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/arm/faq",
+    "title": "learn.microsoft.com/en-us/windows/arm/faq",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/msix/app-installer/how-to-create-appinstaller-file",
+    "title": "manual App Installer file construction",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/msix/app-installer/installing-windows10-apps-web",
+    "title": "learn.microsoft.com/en-us/windows/msix/app-installer/installing-windows10-apps-web",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/msix/desktop/desktop-to-uwp-behind-the-scenes",
+    "title": "How packaged desktop apps run",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/msix/msix-container",
+    "title": "learn.microsoft.com/en-us/windows/msix/msix-container",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/msix/msix-troubleshooting-guide",
+    "title": "learn.microsoft.com/en-us/windows/msix/msix-troubleshooting-guide",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/powertoys/keyboard-manager",
+    "title": "PowerToys Keyboard Manager",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/release-health/supported-versions-windows-client",
+    "title": "supported Windows client versions",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information",
+    "title": "learn.microsoft.com/en-us/windows/release-health/windows11-release-information",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/terminal/customize-settings/interaction",
+    "title": "Windows Terminal interaction settings",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/audioclient/nf-audioclient-iaudiocaptureclient-getbuffer",
+    "title": "IAudioCaptureClient::GetBuffer",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/audioclient/nf-audioclient-iaudioclient-getmixformat",
+    "title": "IAudioClient::GetMixFormat",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/audioclient/nf-audioclient-iaudioclient-isformatsupported",
+    "title": "IAudioClient::IsFormatSupported",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/jobapi2/nf-jobapi2-createjobobjectw",
+    "title": "CreateJobObjectW",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess",
+    "title": "ExitProcess",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-updateprocthreadattribute",
+    "title": "UpdateProcThreadAttribute",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomation2-get_connectiontimeout",
+    "title": "IUIAutomation2 connection timeout",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/uiautomationclient/nf-uiautomationclient-iuiautomationvaluepattern-setvalue",
+    "title": "IUIAutomationValuePattern::SetValue",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/uiautomationcore/nf-uiautomationcore-ivalueprovider-setvalue",
+    "title": "Provider-side IValueProvider::SetValue",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-jobobject_basic_limit_information",
+    "title": "JOBOBJECT_BASIC_LIMIT_INFORMATION",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getclipboardsequencenumber",
+    "title": "GetClipboardSequenceNumber",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getguithreadinfo",
+    "title": "GetGUIThreadInfo",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getmessagetime",
+    "title": "GetMessageTime",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-openclipboard",
+    "title": "OpenClipboard",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-registerhotkey",
+    "title": "RegisterHotKey",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-sendinput",
+    "title": "SendInput",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-kbdllhookstruct",
+    "title": "KBDLLHOOKSTRUCT",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-keybdinput",
+    "title": "KEYBDINPUT",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/coreaudio/audclnt-streamflags-xxx-constants",
+    "title": "AUDCLNT_STREAMFLAGS_AUTOCONVERTPCM",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/coreaudio/capturing-a-stream",
+    "title": "Capturing a Stream",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/coreaudio/communications-audio-format-capabilities",
+    "title": "Communications audio format capabilities",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/coreaudio/stream-routing",
+    "title": "Stream Routing",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/dataxchg/clipboard-formats",
+    "title": "Microsoft Clipboard Formats",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/hidpi/wm-dpichanged",
+    "title": "WM_DPICHANGED",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/inputdev/about-keyboard-input",
+    "title": "Keyboard Input Overview",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes",
+    "title": "Microsoft virtual-key inventory",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-hotkey",
+    "title": "WM_HOTKEY message",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-keyup",
+    "title": "WM_KEYUP message",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/inputdev/wm-mouseactivate",
+    "title": "WM_MOUSEACTIVATE",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/medfound/audioresampler",
+    "title": "Audio Resampler DSP",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/procthread/job-objects",
+    "title": "Job Objects",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/winauto/uiauto-automation-element-propids",
+    "title": "UIA IsPassword",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/winauto/uiauto-implementingtextandtextrange",
+    "title": "Current native Text/TextRange guidance",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/winauto/uiauto-securityoverview",
+    "title": "Assistive technology security",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/winmsg/extended-window-styles",
+    "title": "Extended Window Styles",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/windows/win32/winmsg/wm-close",
+    "title": "WM_CLOSE",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-2.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/windows/apps/package-and-deploy/smartscreen-reputation",
+    "title": "learn.microsoft.com/windows/apps/package-and-deploy/smartscreen-reputation",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://learn.microsoft.com/windows/uwp/devices-sensors/enable-device-capabilities",
+    "title": "learn.microsoft.com/windows/uwp/devices-sensors/enable-device-capabilities",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://nvidia.github.io/TensorRT-LLM/reference/memory.html",
+    "title": "nvidia.github.io/TensorRT-LLM/reference/memory.html",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://onnxruntime.ai/docs/#model-validation",
+    "title": "onnxruntime.ai/docs/",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://onnxruntime.ai/docs/execution-providers/",
+    "title": "onnxruntime.ai/docs/execution-providers/",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html",
+    "title": "onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://onnxruntime.ai/docs/execution-providers/DirectML-ExecutionProvider.html",
+    "title": "onnxruntime.ai/docs/execution-providers/DirectML-ExecutionProvider.html",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-1.md"
+    ]
+  },
+  {
+    "url": "https://onnxruntime.ai/docs/performance/model-optimizations/quantization.html",
+    "title": "onnxruntime.ai/docs/performance/model-optimizations/quantization.html",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://qwen.readthedocs.io/en/stable/run_locally/llama.cpp.html",
+    "title": "qwen.readthedocs.io/en/stable/run_locally/llama.cpp.html",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  },
+  {
+    "url": "https://support.lenovo.com/ca/en/solutions/ht103044",
+    "title": "Lenovo Fn/Hotkey Mode guidance",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-2.md"
+    ]
+  },
+  {
+    "url": "https://support.microsoft.com/en-us/windows/privacy/windows-camera-microphone-and-privacy",
+    "title": "support.microsoft.com/en-us/windows/privacy/windows-camera-microphone-and-privacy",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://www.nuget.org/packages/Microsoft.WindowsAppSDK.Runtime",
+    "title": "Microsoft.WindowsAppSDK.Runtime package inventory",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/20-validation-3.md"
+    ]
+  },
+  {
+    "url": "https://www.nuget.org/packages/Microsoft.WindowsAppSDK/2.5.1",
+    "title": "www.nuget.org/packages/Microsoft.WindowsAppSDK/2.5.1",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-3.md"
+    ]
+  },
+  {
+    "url": "https://www.nuget.org/packages/org.k2fsa.sherpa.onnx/2.0.1",
+    "title": "www.nuget.org/packages/org.k2fsa.sherpa.onnx/2.0.1",
+    "accessed": "2026-10-27",
+    "publication_or_update_date": "See the dated dossier/validation source entry; not inferred from crawl date.",
+    "evidence_files": [
+      "research/10-findings-1.md"
+    ]
+  }
+]

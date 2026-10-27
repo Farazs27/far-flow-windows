@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-27",
+  "method": "Read-only validation metadata; no weights downloaded or hashes recomputed",
+  "queries": {
+    "https://huggingface.co/api/models?author=Qwen&search=Qwen3-4B-Instruct-2507&limit=100": [
+      "Qwen/Qwen3-4B-Instruct-2507",
+      "Qwen/Qwen3-4B-Instruct-2507-FP8"
+    ]
+  },
+  "community_instruct2507_gguf": [
+    {
+      "id": "unsloth/Qwen3-4B-Instruct-2507-GGUF",
+      "sha": "a06e946bb6b655725eafa393f4a9745d460374c9",
+      "createdAt": "2025-08-06T19:21:40.000Z",
+      "lastModified": "2025-08-20T06:23:07.000Z",
+      "cardData": {
+        "library_name": "transformers",
+        "license": "apache-2.0",
+        "license_link": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/blob/main/LICENSE",
+        "base_model": [
+          "Qwen/Qwen3-4B-Instruct-2507"
+        ],
+        "tags": [
+          "qwen",
+          "qwen3",
+          "unsloth"
+        ]
+      },
+      "metadata_url": "https://huggingface.co/api/models/unsloth/Qwen3-4B-Instruct-2507-GGUF",
+      "tree_url": "https://huggingface.co/api/models/unsloth/Qwen3-4B-Instruct-2507-GGUF/tree/a06e946bb6b655725eafa393f4a9745d460374c9?recursive=true&expand=false",
+      "selected_files": [
+        {
+          "type": "file",
+          "oid": "681d7d0d2c24530e22ca6c3f2ef14fbe254f17ae",
+          "size": 2497281120,
+          "lfs": {
+            "oid": "3605803b982cb64aead44f6c1b2ae36e3acdb41d8e46c8a94c6533bc4c67e597",
+            "size": 2497281120,
+            "pointerSize": 135
+          },
+          "xetHash": "bf52d44a54b81d44219833556849529ee96f09da673a38783dddc2e2eaf17881",
+          "path": "Qwen3-4B-Instruct-2507-Q4_K_M.gguf"
+        }
+      ],
+      "notice_files": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "lmstudio-community/Qwen3-4B-Instruct-2507-GGUF",
+      "sha": "4edb920b6f14e3b9284d4502a6485103d72cde05",
+      "createdAt": "2025-08-06T14:35:28.000Z",
+      "lastModified": "2025-08-06T15:39:11.000Z",
+      "cardData": {
+        "quantized_by": "bartowski",
+        "pipeline_tag": "text-generation",
+        "base_model_relation": "quantized",
+        "base_model": "Qwen/Qwen3-4B-Instruct-2507"
+      },
+      "metadata_url": "https://huggingface.co/api/models/lmstudio-community/Qwen3-4B-Instruct-2507-GGUF",
+      "tree_url": "https://huggingface.co/api/models/lmstudio-community/Qwen3-4B-Instruct-2507-GGUF/tree/4edb920b6f14e3b9284d4502a6485103d72cde05?recursive=true&expand=false",
+      "selected_files": [
+        {
+          "type": "file",
+          "oid": "9ddb480eaf3c3eca04bf3a6e63a1f6f8780fee2a",
+          "size": 2497280448,
+          "lfs": {
+            "oid": "8cdb57cbb880d313736a9bc4e3d3d2485f145b5e19cf33783746e753e82641fc",
+            "size": 2497280448,
+            "pointerSize": 135
+          },
+          "xetHash": "f8d90cdca6cb590db560cfe7df0b02a9d051f3c96a22b870752d56b9270f1213",
+          "path": "Qwen3-4B-Instruct-2507-Q4_K_M.gguf"
+        }
+      ],
+      "notice_files": [
+        "README.md"
+      ]
+    }
+  ],
+  "official_instruct2507": {
+    "metadata_url": "https://huggingface.co/api/models/Qwen/Qwen3-4B-Instruct-2507",
+    "id": "Qwen/Qwen3-4B-Instruct-2507",
+    "sha": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "createdAt": "2025-08-05T10:58:03.000Z",
+    "lastModified": "2025-09-17T06:56:53.000Z",
+    "cardData": {
+      "library_name": "transformers",
+      "license": "apache-2.0",
+      "license_link": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/blob/main/LICENSE",
+      "pipeline_tag": "text-generation"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "path": "brand/assets/far-flow-icon.png",
+    "sha256": "756ea4440b434507f5844c754a6dc6d17516fc8979edad54695d0fedefaa3efe",
+    "bytes": 38990,
+    "source": "https://github.com/Farazs27/far-flow/tree/ccb628adbeea97ed898c35f1f83b21188815c32b",
+    "terms": "Original Far Flow rights reserved; owner-authorized reuse"
+  },
+  {
+    "path": "brand/assets/far-flow-mark.svg",
+    "sha256": "4cce15bd335de50b53697a8dadb3f211835665c7104788d6cf1608a4437dd913",
+    "bytes": 191,
+    "source": "https://github.com/Farazs27/far-flow/tree/ccb628adbeea97ed898c35f1f83b21188815c32b",
+    "terms": "Original Far Flow rights reserved; owner-authorized reuse"
+  },
+  {
+    "path": "brand/assets/travertine-banner.png",
+    "sha256": "94483e2b8c756e5ba76ba4c39ad8c615892db974a5e936565461b4ef4a89bd57",
+    "bytes": 2172460,
+    "source": "https://github.com/Farazs27/far-flow/tree/ccb628adbeea97ed898c35f1f83b21188815c32b",
+    "terms": "Original Far Flow rights reserved; owner-authorized reuse"
+  },
+  {
+    "path": "brand/fonts/ZalandoSans-OFL.txt",
+    "sha256": "411a22de2734b25584e4764f7212b004f241181ac04944a3bcee0e0371afe547",
+    "bytes": 4425,
+    "source": "https://github.com/Farazs27/far-flow/tree/ccb628adbeea97ed898c35f1f83b21188815c32b",
+    "terms": "SIL OFL 1.1"
+  },
+  {
+    "path": "brand/fonts/ZalandoSans.ttf",
+    "sha256": "9ef9c85d9b108f588858e045aee46ebbc8e324002d1891c2f662d40a2704dcd8",
+    "bytes": 281728,
+    "source": "https://github.com/Farazs27/far-flow/tree/ccb628adbeea97ed898c35f1f83b21188815c32b",
+    "terms": "SIL OFL 1.1"
+  }
+]
