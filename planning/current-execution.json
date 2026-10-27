@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-27",
+  "phase": 1,
+  "phase_1_approved": true,
+  "phase_1_stop_go_gate_closed": false,
+  "state": "public_evaluation_preview",
+  "repository": "https://github.com/Farazs27/far-flow-windows",
+  "release_url": "https://github.com/Farazs27/far-flow-windows/releases/tag/v0.1.0-preview.1",
+  "tag": "v0.1.0-preview.1",
+  "source_commit": "8f6ef2424745081ff0d54293b753d6e576244dae",
+  "windows_ci": "https://github.com/Farazs27/far-flow-windows/actions/runs/40516886418",
+  "ci_result": "success",
+  "artifact_sha256": "c824e74501527250f3e50996b6003052747b9c77524d7627ad790b8fe51bb5e5",
+  "speech_provider": "cpu",
+  "languages_targeted": [
+    "English",
+    "Dutch"
+  ],
+  "ci_audio_fixtures": 2,
+  "portable_contract_checks": 22,
+  "native_app_ready_and_close_verified": true,
+  "notepad_unicode_and_focus_recovery_verified_on_runner": true,
+  "physical_microphone_test": "PENDING_TESTER",
+  "physical_keyboard_test": "PENDING_TESTER",
+  "consumer_windows_11_hardware": "PENDING_TESTER",
+  "model_bakeoff": "PENDING",
+  "gpu_acceleration": "NOT_IMPLEMENTED",
+  "signed_installer": "NOT_IMPLEMENTED"
+}

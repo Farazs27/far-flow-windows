@@ -1,8 +1,10 @@
 # Phase 1 execution
 
-Approved by the owner on **27 October 2026**. A native Windows evaluation preview is implemented and has passed the [Windows CI smoke run](https://github.com/Farazs27/far-flow-windows/actions/runs/40515872693). The original research and `planning/evidence-status.json` remain a preimplementation snapshot.
+Approved by the owner on **27 October 2026**. A native Windows evaluation preview is implemented and has passed the [Windows CI smoke run](https://github.com/Farazs27/far-flow-windows/actions/runs/40516886418). The original research and `planning/evidence-status.json` remain a preimplementation snapshot.
 
 **[Download preview 0.1.0](https://github.com/Farazs27/far-flow-windows/releases/tag/v0.1.0-preview.1)** · [Tester checklist](TESTING-PREVIEW.md) · [Machine-readable evidence](../validation/0.1.0-preview/README.md)
+
+Release `v0.1.0-preview.1` is public. The ZIP is built from `8f6ef2424745081ff0d54293b753d6e576244dae`; its SHA-256 is `c824e74501527250f3e50996b6003052747b9c77524d7627ad790b8fe51bb5e5`. [Current machine-readable status](../planning/current-execution.json).
 
 ## Implemented
 
