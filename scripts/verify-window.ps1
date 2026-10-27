@@ -5,7 +5,8 @@ param(
 )
 $ErrorActionPreference = 'Stop'
 New-Item $EvidenceDirectory -ItemType Directory -Force | Out-Null
-$process = Start-Process (Resolve-Path $ExePath) -ArgumentList $(if ($Arguments) {$Arguments} else {'--window-smoke'}) -PassThru
+$resolvedExe = (Resolve-Path $ExePath).Path
+$process = Start-Process $resolvedExe -WorkingDirectory ([IO.Path]::GetDirectoryName($resolvedExe)) -ArgumentList $(if ($Arguments) {$Arguments} else {'--window-smoke'}) -PassThru
 try {
     $deadline = [DateTime]::UtcNow.AddSeconds(50)
     do {
@@ -43,6 +44,11 @@ public static class WindowCapture {
         width=$width; height=$height; sourceCommit=$env:GITHUB_SHA;
         environment='GitHub hosted Windows runner; no physical microphone or keyboard certification'
     } | ConvertTo-Json | Set-Content (Join-Path $EvidenceDirectory 'window-evidence.json')
+} catch {
+    Get-WinEvent -FilterHashtable @{LogName='Application'; StartTime=[DateTime]::Now.AddMinutes(-5)} -ErrorAction SilentlyContinue |
+        Where-Object { $_.Level -le 2 } | Select-Object -First 12 TimeCreated,ProviderName,Message |
+        Format-List | Out-String | Set-Content (Join-Path $EvidenceDirectory 'startup-events.txt')
+    throw
 } finally {
     # Ephemeral CI cleanup. Interactive tester sessions remain open until the tester closes them.
     if (-not $process.HasExited) { Stop-Process -Id $process.Id -Force }

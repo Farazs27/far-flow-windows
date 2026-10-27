@@ -52,6 +52,7 @@ jobs:
         shell: pwsh
         run: ./scripts/verify-window.ps1 -ExePath artifacts/template-app/FarFlow.Windows.exe -EvidenceDirectory artifacts/template-evidence
       - name: Save the generated template without dependency caches
+        if: always()
         shell: pwsh
         run: |
           Remove-Item template/FarFlow.Windows/bin,template/FarFlow.Windows/obj -Recurse -Force -ErrorAction SilentlyContinue
