@@ -7,6 +7,7 @@ import json
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
+EXCLUDED = {'.git', '.tools', 'bin', 'obj', 'artifacts', '.vs'}
 
 def main():
     required = [
@@ -19,7 +20,7 @@ def main():
     ]
     for name in required:
         assert (ROOT / name).is_file(), f"Missing {name}"
-    json_files = [p for p in ROOT.rglob("*.json") if ".git" not in p.parts and ".tools" not in p.parts]
+    json_files = [p for p in ROOT.rglob("*.json") if not EXCLUDED.intersection(p.parts)]
     for path in json_files:
         json.loads(path.read_text())
     ledger = json.loads((ROOT / "planning/claim-ledger.json").read_text())
@@ -44,7 +45,7 @@ def main():
             assert all(row["status"] == "NOT RUN" for row in rows)
     broken = []
     for path in ROOT.rglob("*.md"):
-        if ".git" in path.parts or ".tools" in path.parts:
+        if EXCLUDED.intersection(path.parts):
             continue
         body = path.read_text()
         targets = re.findall(r'!?\[[^\]]*\]\(([^)]+)\)', body)
@@ -56,7 +57,7 @@ def main():
             if clean and not (path.parent / clean).exists():
                 broken.append(f"{path.relative_to(ROOT)} -> {target}")
     assert not broken, "Broken local links: " + "; ".join(broken)
-    print(f"Planning checks passed: {len(ledger)} reviewed claims, {len(json_files)} JSON files, {len(provenance)} assets; Windows evidence remains NOT RUN.")
+    print(f"Research baseline checks passed: {len(ledger)} reviewed claims, {len(json_files)} JSON files, {len(provenance)} original assets. Current execution evidence is recorded separately in docs/PHASE-1-STATUS.md.")
 
 if __name__ == "__main__":
     main()

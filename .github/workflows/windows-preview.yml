@@ -1,0 +1,63 @@
+name: Windows preview build and smoke tests
+on:
+  workflow_dispatch:
+  push:
+    paths: ['src/**', 'tests/**', 'scripts/**', 'licenses/**', 'global.json', 'Directory.Build.props', '.github/workflows/windows-preview.yml']
+  pull_request:
+    paths: ['src/**', 'tests/**', 'scripts/**', 'licenses/**', 'global.json', 'Directory.Build.props', '.github/workflows/windows-preview.yml']
+permissions:
+  contents: read
+jobs:
+  windows-x64:
+    runs-on: windows-2025-vs2026
+    timeout-minutes: 25
+    env:
+      DOTNET_CLI_TELEMETRY_OPTOUT: '1'
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - uses: actions/setup-dotnet@26b0ec14cb23fa6904739307f278c14f94c95bf1
+        with:
+          dotnet-version: 10.0.403
+      - name: Build native app, speech worker and checks
+        shell: pwsh
+        run: ./scripts/build-windows.ps1 -IncludeProbe
+      - name: Launch the real app and capture its window
+        shell: pwsh
+        run: ./scripts/verify-window.ps1 -ExePath artifacts/FarFlow-Windows-x64/FarFlow.Windows.exe -EvidenceDirectory artifacts/evidence
+      - name: Fetch and verify the approved model
+        shell: pwsh
+        run: |
+          & artifacts/probe/FarFlow.Probe.exe --install-model
+          if($LASTEXITCODE){throw 'Model installation/hash test failed'}
+      - name: Test real speech offline and worker shutdown
+        shell: pwsh
+        run: ./scripts/smoke-speech.ps1
+      - name: Verify forced parent exit leaves no worker
+        shell: pwsh
+        run: |
+          $path=Join-Path $PWD 'artifacts/lifetime-pids.json'
+          $parent=Start-Process (Resolve-Path artifacts/probe/FarFlow.Probe.exe) -ArgumentList @('--hold-worker',$path) -PassThru
+          $deadline=[DateTime]::UtcNow.AddSeconds(25)
+          while(-not(Test-Path $path) -and [DateTime]::UtcNow -lt $deadline){Start-Sleep -Milliseconds 200}
+          if(-not(Test-Path $path)){throw 'Owned worker did not connect'}
+          $ids=Get-Content $path | ConvertFrom-Json
+          Stop-Process -Id $parent.Id -Force
+          Start-Sleep -Milliseconds 800
+          if(Get-Process -Id $ids.child -ErrorAction SilentlyContinue){throw 'Orphan worker survived parent kill'}
+          @{parentExitTest='PASS';childStopped=$true;sourceCommit=$env:GITHUB_SHA} | ConvertTo-Json | Set-Content artifacts/evidence/lifetime.json
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: Windows-preview-evidence
+          path: |
+            artifacts/evidence/
+            artifacts/FarFlow-Windows-x64/build-info.json
+            src/**/packages.lock.json
+            tests/**/packages.lock.json
+            C:/Users/runneradmin/AppData/Local/FarFlowWindows/startup-error.txt
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: Far-Flow-Windows-preview-x64
+          path: |
+            artifacts/Far-Flow-Windows-0.1.0-preview-x64.zip
+            artifacts/SHA256SUMS.txt

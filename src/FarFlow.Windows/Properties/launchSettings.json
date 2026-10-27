@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FarFlow.Windows (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "FarFlow.Windows (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
