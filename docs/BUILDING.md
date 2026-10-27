@@ -11,6 +11,6 @@ From the repository root in PowerShell:
 ./artifacts/FarFlow-Windows-x64/FarFlow.Windows.exe
 ```
 
-Open `src/FarFlow.Windows/FarFlow.Windows.csproj` in Visual Studio for interactive development. Use x64. The script publishes both the UI and its `ModelHost` child with self-contained .NET runtimes and includes the official Visual C++ redistributable files from the installed VS toolchain. Keep each published folder intact. The preview is a folder ZIP, not a single-file executable or signed installer.
+Open `FarFlow.Windows.slnx` in Visual Studio to edit the projects. Use x64. The complete Phase 1 run loop uses the script above: it publishes both the UI and its `ModelHost` child with self-contained .NET runtimes and includes the official Visual C++ redistributable files from the installed VS toolchain. Building or F5-launching just the UI project does not stage its speech worker; use the combined script when testing dictation. Keep each published folder intact. The preview is a folder ZIP, not a single-file executable or signed installer.
 
 `dotnet run --project tests/FarFlow.Checks/FarFlow.Checks.csproj` runs portable contract checks. The additional Windows probe and smoke scripts test pinned public English/Dutch WAVs with worker network access blocked, silence rejection and child shutdown. Test fixtures and model weights are downloaded for CI testing only, not committed or included in the application ZIP. Physical microphone and keyboard tests remain separate.
