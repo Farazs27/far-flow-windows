@@ -34,7 +34,7 @@ jobs:
           foreach ($pair in @{
             WindowsPackageType='None'; WindowsAppSDKSelfContained='true';
             SelfContained='true'; PublishTrimmed='false'; PublishReadyToRun='false';
-            EnableMsixTooling='false'; EnableWinAppRunSupport='false';
+            EnableMsixTooling='true'; EnableWinAppRunSupport='false';
             EnableWindowsTargeting='true'
           }.GetEnumerator()) {
             $node = $project.CreateElement($pair.Key); $node.InnerText=$pair.Value
