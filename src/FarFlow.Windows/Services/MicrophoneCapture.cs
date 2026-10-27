@@ -1,4 +1,5 @@
 using FarFlow.Core;
+using NAudio.CoreAudioApi;
 using NAudio.Wave;
 
 namespace FarFlow_Windows.Services;

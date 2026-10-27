@@ -17,6 +17,7 @@ Copy-Item (Join-Path $crt.FullName '*.dll') $app
 Copy-Item (Join-Path $crt.FullName '*.dll') "$app/ModelHost"
 Copy-Item LICENSE,THIRD_PARTY_NOTICES.md $app
 Copy-Item licenses "$app/licenses" -Recurse
+Copy-Item brand/fonts/ZalandoSans-OFL.txt "$app/licenses/ZalandoSans-OFL.txt"
 Copy-Item docs/TESTING-PREVIEW.md "$app/START-HERE.md"
 @{sourceCommit=$env:GITHUB_SHA;configuration='Release';runtime='win-x64';dotnet=(dotnet --version);cppRuntime=$crt.Name;builtUtc=[DateTime]::UtcNow.ToString('O')} | ConvertTo-Json | Set-Content "$app/build-info.json"
 if($IncludeProbe){

@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FarFlow.Core/FarFlow.Core.csproj" />
+    <Project Path="src/FarFlow.ModelHost/FarFlow.ModelHost.csproj" />
+    <Project Path="src/FarFlow.Windows/FarFlow.Windows.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FarFlow.Checks/FarFlow.Checks.csproj" />
+    <Project Path="tests/FarFlow.Probe/FarFlow.Probe.csproj" />
+  </Folder>
+</Solution>

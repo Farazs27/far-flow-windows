@@ -49,8 +49,6 @@
   <PropertyGroup Condition="'$(DisableHasPackageAndPublishMenuAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
     <HasPackageAndPublishMenu>true</HasPackageAndPublishMenu>
   </PropertyGroup>
-  <PropertyGroup>
-    </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="../FarFlow.Core/FarFlow.Core.csproj" />
     <PackageReference Include="NAudio" Version="2.2.1" />
