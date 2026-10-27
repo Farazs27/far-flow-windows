@@ -52,8 +52,8 @@
   <ItemGroup>
     <ProjectReference Include="../FarFlow.Core/FarFlow.Core.csproj" />
     <PackageReference Include="NAudio" Version="2.2.1" />
-    <Content Include="Assets/far-flow-icon.png" CopyToOutputDirectory="PreserveNewest" />
-    <Content Include="Assets/travertine-banner.png" CopyToOutputDirectory="PreserveNewest" />
-    <Content Include="Assets/ZalandoSans.ttf" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Assets\far-flow-icon.png" />
+    <Content Include="Assets\travertine-banner.png" />
+    <Content Include="Assets\ZalandoSans.ttf" />
   </ItemGroup>
 </Project>

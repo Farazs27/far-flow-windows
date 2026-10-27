@@ -14,6 +14,7 @@ public sealed class OwnedWorker : IDisposable
         job = CreateJobObjectW(IntPtr.Zero, null);
         if (job.IsInvalid) throw new Win32Exception();
         IntPtr list = IntPtr.Zero, handles = IntPtr.Zero;
+        bool attributesInitialized = false;
         try
         {
             var limits = new ExtendedLimits { Basic = new BasicLimits { Flags = 0x2000 } }; // KILL_ON_JOB_CLOSE
@@ -22,6 +23,7 @@ public sealed class OwnedWorker : IDisposable
             InitializeProcThreadAttributeList(IntPtr.Zero, 1, 0, ref size);
             list = Marshal.AllocHGlobal((nint)size);
             if (!InitializeProcThreadAttributeList(list, 1, 0, ref size)) throw new Win32Exception();
+            attributesInitialized = true;
             handles = Marshal.AllocHGlobal(IntPtr.Size);
             Marshal.WriteIntPtr(handles, job.DangerousGetHandle());
             // The process joins the job at creation, before it can execute or become orphaned.
@@ -36,7 +38,7 @@ public sealed class OwnedWorker : IDisposable
         catch { job.Dispose(); throw; }
         finally
         {
-            if (list != IntPtr.Zero) { DeleteProcThreadAttributeList(list); Marshal.FreeHGlobal(list); }
+            if (list != IntPtr.Zero) { if(attributesInitialized)DeleteProcThreadAttributeList(list); Marshal.FreeHGlobal(list); }
             if (handles != IntPtr.Zero) Marshal.FreeHGlobal(handles);
         }
     }
