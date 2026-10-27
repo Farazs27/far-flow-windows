@@ -21,10 +21,13 @@ public sealed partial class MainWindow : Window
     private int generation;
     private float amplitude;
     private long recordingAt;
+    private bool heroLoaded,markLoaded;
     public MainWindow()
     {
         InitializeComponent();
-        AppWindow.Resize(new Windows.Graphics.SizeInt32(1180,850));
+        var work=Microsoft.UI.Windowing.DisplayArea.GetFromWindowId(AppWindow.Id,Microsoft.UI.Windowing.DisplayAreaFallback.Primary).WorkArea;
+        int width=Math.Min(1180,work.Width-48),height=Math.Min(850,work.Height-48);
+        AppWindow.MoveAndResize(new Windows.Graphics.RectInt32(work.X+(work.Width-width)/2,work.Y+(work.Height-height)/2,width,height));
         AppWindow.SetIcon(Path.Combine(AppContext.BaseDirectory,"Assets","AppIcon.ico"));
         AppWindow.Closing+=async(_,args)=>
         {
@@ -149,4 +152,10 @@ public sealed partial class MainWindow : Window
         PageTitle.Text=tag=="model"?"A voice of your own.":tag=="guide"?"Make yourself at home.":"Room for your thoughts.";PageLabel.Text=tag=="model"?"PRIVATE BY DESIGN":tag=="guide"?"THE FIRST SESSION":"YOUR DAILY PRACTICE";
     }
     private void Theme_Changed(object sender,SelectionChangedEventArgs args){if(Root is not null&&sender is ComboBox choice)Root.RequestedTheme=choice.SelectedIndex switch{0=>ElementTheme.Light,1=>ElementTheme.Dark,_=>ElementTheme.Default};}
+    private void Artwork_Opened(object sender,RoutedEventArgs args)
+    {
+        if(sender==HeroArtwork)heroLoaded=true;if(sender==BrandMark)markLoaded=true;
+        if(heroLoaded&&markLoaded&&Environment.GetCommandLineArgs().Contains("--window-smoke"))
+            File.WriteAllText(Path.Combine(AppContext.BaseDirectory,"ui-smoke.json"),"{\"heroLoaded\":true,\"logoLoaded\":true}");
+    }
 }

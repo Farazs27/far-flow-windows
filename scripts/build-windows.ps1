@@ -7,6 +7,7 @@ function Run-DotNet([string[]]$Arguments) {
 Run-DotNet @('run','--project','tests/FarFlow.Checks/FarFlow.Checks.csproj','-c','Release')
 $app='artifacts/FarFlow-Windows-x64'
 Run-DotNet @('publish','src/FarFlow.Windows/FarFlow.Windows.csproj','-c','Release','-r','win-x64','-p:Platform=x64','-p:PublishProfile=','-o',$app)
+Copy-Item src/FarFlow.Windows/Assets "$app/Assets" -Recurse -Force
 Run-DotNet @('publish','src/FarFlow.ModelHost/FarFlow.ModelHost.csproj','-c','Release','-r','win-x64','-o',"$app/ModelHost")
 # Include the official redistributable C++ runtime, rather than depending on a developer PC.
 $vs=& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -property installationPath

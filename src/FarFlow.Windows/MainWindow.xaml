@@ -1,9 +1,9 @@
 <Window x:Class="FarFlow_Windows.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Far Flow · Windows Preview">
  <Grid x:Name="Root" Background="{ThemeResource PaperBrush}" RequestedTheme="Light">
-  <NavigationView x:Name="Navigation" IsSettingsVisible="False" IsBackButtonVisible="Collapsed" PaneDisplayMode="Left" OpenPaneLength="214" CompactModeThresholdWidth="720" ExpandedModeThresholdWidth="1000" SelectionChanged="Navigation_SelectionChanged" Background="{ThemeResource PaperBrush}">
+  <NavigationView x:Name="Navigation" IsSettingsVisible="False" IsBackButtonVisible="Collapsed" PaneDisplayMode="Left" OpenPaneLength="214" CompactModeThresholdWidth="720" ExpandedModeThresholdWidth="900" SelectionChanged="Navigation_SelectionChanged" Background="{ThemeResource PaperBrush}">
    <NavigationView.PaneHeader>
     <StackPanel Orientation="Horizontal" Spacing="12" Margin="18,26,0,28">
-     <Image Source="Assets/far-flow-icon.png" Width="40" Height="40" AutomationProperties.Name="Far Flow logo" />
+     <Image x:Name="BrandMark" Source="ms-appx:///Assets/far-flow-icon.png" ImageOpened="Artwork_Opened" Width="40" Height="40" AutomationProperties.Name="Far Flow logo" />
      <StackPanel VerticalAlignment="Center"><TextBlock Text="far flow" FontSize="22" FontWeight="SemiBold" Foreground="{ThemeResource InkBrush}" /><TextBlock Text="WINDOWS / PREVIEW" Style="{StaticResource Eyebrow}" FontSize="8" /></StackPanel>
     </StackPanel>
    </NavigationView.PaneHeader>
@@ -21,7 +21,7 @@
      </Grid>
      <InfoBar x:Name="Notice" IsOpen="False" IsClosable="True" Severity="Error" />
      <StackPanel x:Name="DictationPanel" Spacing="20">
-      <Border CornerRadius="8" Height="190" Background="#E7DECB"><Image Source="Assets/travertine-banner.png" Stretch="UniformToFill" AutomationProperties.Name="Far Flow travertine wave artwork" /></Border>
+      <Border CornerRadius="8" Height="190" Background="#E7DECB"><Image x:Name="HeroArtwork" Source="ms-appx:///Assets/travertine-banner.png" ImageOpened="Artwork_Opened" Stretch="UniformToFill" AutomationProperties.Name="Far Flow travertine wave artwork" /></Border>
       <StackPanel Spacing="7"><TextBlock Text="Speak naturally. Stay in flow." FontFamily="{StaticResource BrandFont}" FontSize="24" Foreground="{ThemeResource InkBrush}" /><TextBlock Text="English + Nederlands. Your voice stays on this PC." Foreground="{ThemeResource MutedBrush}" TextWrapping="Wrap" /></StackPanel>
       <Border Height="1" Background="{ThemeResource RuleBrush}" />
       <StackPanel Spacing="12">

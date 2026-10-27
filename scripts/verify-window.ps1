@@ -5,6 +5,10 @@ param(
 )
 $ErrorActionPreference = 'Stop'
 New-Item $EvidenceDirectory -ItemType Directory -Force | Out-Null
+# On the ephemeral runner only, request a useful desktop canvas if the Server display cmdlet is available.
+if(Get-Command Set-DisplayResolution -ErrorAction SilentlyContinue){
+    try{Set-DisplayResolution -Width 1440 -Height 1000 -Force -ErrorAction Stop | Out-Null}catch{}
+}
 $resolvedExe = (Resolve-Path $ExePath).Path
 $process = Start-Process $resolvedExe -WorkingDirectory ([IO.Path]::GetDirectoryName($resolvedExe)) -ArgumentList $(if ($Arguments) {$Arguments} else {'--window-smoke'}) -PassThru
 try {
@@ -22,6 +26,8 @@ using System.Runtime.InteropServices;
 public static class WindowCapture {
   [StructLayout(LayoutKind.Sequential)] public struct Rect { public int Left, Top, Right, Bottom; }
   [DllImport("user32.dll")] public static extern bool GetWindowRect(IntPtr hwnd, out Rect rect);
+  [DllImport("dwmapi.dll")] private static extern int DwmGetWindowAttribute(IntPtr hwnd,int attribute,out Rect rect,int size);
+  public static Rect VisibleBounds(IntPtr hwnd) {if(DwmGetWindowAttribute(hwnd,9,out Rect r,Marshal.SizeOf<Rect>())!=0)GetWindowRect(hwnd,out r);return r;}
   [DllImport("user32.dll")] public static extern bool SetForegroundWindow(IntPtr hwnd);
   private delegate bool EnumProc(IntPtr hwnd, IntPtr parameter);
   [DllImport("user32.dll")] private static extern bool EnumWindows(EnumProc callback, IntPtr parameter);
@@ -53,8 +59,7 @@ public static class WindowCapture {
     if([WindowCapture]::SendMessageTimeoutW($handle,0,[IntPtr]::Zero,[IntPtr]::Zero,2,2000,[ref]$reply) -eq [IntPtr]::Zero){throw 'App window is not responding'}
     [WindowCapture]::SetForegroundWindow($handle) | Out-Null
     Start-Sleep -Seconds 1
-    $rect = New-Object WindowCapture+Rect
-    [WindowCapture]::GetWindowRect($handle,[ref]$rect) | Out-Null
+    $rect = [WindowCapture]::VisibleBounds($handle)
     $width=$rect.Right-$rect.Left; $height=$rect.Bottom-$rect.Top
     if ($width -lt 100 -or $height -lt 100) { throw 'Window dimensions are invalid' }
     $bitmap=New-Object System.Drawing.Bitmap($width,$height)
@@ -63,6 +68,13 @@ public static class WindowCapture {
         $graphics.CopyFromScreen($rect.Left,$rect.Top,0,0,$bitmap.Size)
         $bitmap.Save((Join-Path (Resolve-Path $EvidenceDirectory) 'window.png'))
     } finally { $graphics.Dispose(); $bitmap.Dispose() }
+    if((Split-Path $resolvedExe -Leaf) -eq 'FarFlow.Windows.exe' -and $process.MainWindowTitle -ne 'Far Flow template verification'){
+        $assetsPath=Join-Path ([IO.Path]::GetDirectoryName($resolvedExe)) 'ui-smoke.json'
+        if(-not(Test-Path $assetsPath)){throw 'The app did not confirm that both branded images rendered'}
+        $assets=Get-Content $assetsPath | ConvertFrom-Json
+        if(-not $assets.heroLoaded -or -not $assets.logoLoaded){throw 'Branded image rendering failed'}
+        Copy-Item $assetsPath (Join-Path $EvidenceDirectory 'ui-assets.json')
+    }
     @{
         utc=[DateTime]::UtcNow.ToString('O'); title=[WindowCapture]::Title($handle);
         responsive=$true; hwnd=$handle.ToInt64();
