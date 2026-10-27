@@ -46,6 +46,15 @@ jobs:
             if ($ref.Include -eq 'Microsoft.Windows.SDK.BuildTools.WinApp') { [void]$ref.ParentNode.RemoveChild($ref) }
           }
           $project.Save((Join-Path $PWD $path))
+          $appPath='template/FarFlow.Windows/App.xaml.cs'
+          $app=Get-Content $appPath -Raw
+          $diagnostic=@'
+          UnhandledException += (_, e) => System.IO.File.WriteAllText(System.IO.Path.Combine(AppContext.BaseDirectory,"startup-error.txt"), e.Exception.ToString());
+          try { InitializeComponent(); } catch (Exception e) { System.IO.File.WriteAllText(System.IO.Path.Combine(AppContext.BaseDirectory,"startup-error.txt"),e.ToString()); throw; }
+          '@
+          $app=$app.Replace('InitializeComponent();',$diagnostic)
+          $app=$app.Replace('_window = new MainWindow();','try { _window = new MainWindow(); } catch(Exception e) { System.IO.File.WriteAllText(System.IO.Path.Combine(AppContext.BaseDirectory,"startup-error.txt"),e.ToString()); throw; }')
+          Set-Content $appPath $app
           dotnet publish $path -c Release -r win-x64 -p:Platform=x64 -p:PublishProfile= -p:PublishTrimmed=false -p:PublishReadyToRun=false -o artifacts/template-app
           if ($LASTEXITCODE) { throw 'Native template build failed' }
       - name: Verify an actual responsive window
@@ -63,4 +72,5 @@ jobs:
           path: |
             template/
             artifacts/template-evidence/
+            artifacts/template-app/startup-error.txt
           include-hidden-files: true
