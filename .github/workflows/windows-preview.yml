@@ -53,8 +53,8 @@ jobs:
       - name: Verify dark appearance and model setup navigation
         shell: pwsh
         run: |
-          ./scripts/verify-window.ps1 -ExePath artifacts/FarFlow-Windows-x64/FarFlow.Windows.exe -EvidenceDirectory artifacts/evidence/dark -Arguments '--window-smoke --theme-dark' -VerifyBrand
-          ./scripts/verify-window.ps1 -ExePath artifacts/FarFlow-Windows-x64/FarFlow.Windows.exe -EvidenceDirectory artifacts/evidence/model -Arguments '--window-smoke --show-model' -VerifyBrand
+          ./scripts/verify-window.ps1 -ExePath artifacts/FarFlow-Windows-x64/FarFlow.Windows.exe -EvidenceDirectory artifacts/evidence/dark -Arguments '--window-smoke --theme-dark' -VerifyBrand -WaitForModelReady
+          ./scripts/verify-window.ps1 -ExePath artifacts/FarFlow-Windows-x64/FarFlow.Windows.exe -EvidenceDirectory artifacts/evidence/model -Arguments '--window-smoke --show-model' -VerifyBrand -WaitForModelReady
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:

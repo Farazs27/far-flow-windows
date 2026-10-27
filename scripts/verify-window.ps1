@@ -2,7 +2,8 @@ param(
     [Parameter(Mandatory=$true)][string]$ExePath,
     [Parameter(Mandatory=$true)][string]$EvidenceDirectory,
     [string]$Arguments = '',
-    [switch]$VerifyBrand
+    [switch]$VerifyBrand,
+    [switch]$WaitForModelReady
 )
 $ErrorActionPreference = 'Stop'
 New-Item $EvidenceDirectory -ItemType Directory -Force | Out-Null
@@ -13,6 +14,8 @@ if(Get-Command Set-DisplayResolution -ErrorAction SilentlyContinue){
 $resolvedExe = (Resolve-Path $ExePath).Path
 $assetsPath=Join-Path ([IO.Path]::GetDirectoryName($resolvedExe)) 'ui-smoke.json'
 if(Test-Path $assetsPath){Remove-Item $assetsPath}
+$readyPath=Join-Path ([IO.Path]::GetDirectoryName($resolvedExe)) 'model-ready.json'
+if(Test-Path $readyPath){Remove-Item $readyPath}
 $process = Start-Process $resolvedExe -WorkingDirectory ([IO.Path]::GetDirectoryName($resolvedExe)) -ArgumentList $(if ($Arguments) {$Arguments} else {'--window-smoke'}) -PassThru
 try {
     $deadline = [DateTime]::UtcNow.AddSeconds(50)
@@ -23,6 +26,17 @@ try {
     } while ($process.MainWindowHandle -eq 0 -and [DateTime]::UtcNow -lt $deadline)
     if ($process.MainWindowHandle -eq 0 -or -not $process.Responding) { throw 'No responsive top-level window' }
     Start-Sleep -Seconds 3
+    if($WaitForModelReady){
+        $readyDeadline=[DateTime]::UtcNow.AddSeconds(45)
+        while(-not(Test-Path $readyPath) -and [DateTime]::UtcNow -lt $readyDeadline){
+            Start-Sleep -Milliseconds 200
+            $process.Refresh();if($process.HasExited){throw 'App exited while loading the model'}
+        }
+        if(-not(Test-Path $readyPath)){throw 'The actual app did not reach model-ready state'}
+        $modelReady=Get-Content $readyPath | ConvertFrom-Json
+        if(-not $modelReady.modelReady){throw 'Model readiness was not confirmed'}
+        Copy-Item $readyPath (Join-Path $EvidenceDirectory 'model-ready.json')
+    }
     Add-Type @'
 using System;
 using System.Runtime.InteropServices;
@@ -85,6 +99,7 @@ public static class WindowCapture {
     } | ConvertTo-Json | Set-Content (Join-Path $EvidenceDirectory 'window-evidence.json')
     [WindowCapture]::SendMessageTimeoutW($handle,0x10,[IntPtr]::Zero,[IntPtr]::Zero,2,2000,[ref]$reply) | Out-Null
     if(-not $process.WaitForExit(5000)){throw 'The app did not exit after normal window close'}
+    if($WaitForModelReady -and (Get-Process -Id $modelReady.workerProcessId -ErrorAction SilentlyContinue)){throw 'The app speech worker survived window close'}
     @{normalWindowClose='PASS';sourceCommit=$env:GITHUB_SHA} | ConvertTo-Json | Set-Content (Join-Path $EvidenceDirectory 'close-evidence.json')
 } catch {
     Get-WinEvent -FilterHashtable @{LogName='Application'; StartTime=[DateTime]::Now.AddMinutes(-5)} -ErrorAction SilentlyContinue |

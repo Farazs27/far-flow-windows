@@ -142,6 +142,8 @@ public sealed partial class MainWindow : Window
             await Task.Run(() => SpeechPack.VerifyAsync(SpeechPack.DefaultDirectory, request.Token), request.Token);
             await worker.LoadAsync(request.Token); if (session != generation || closing) return;
             ModelStatus.Text = "Ready · Parakeet v3 · CPU · English + Nederlands. No microphone is active."; StatusText.Text = "Ready. Open Notepad and hold F8, or record here."; Notice.IsOpen = false;
+            if(Environment.GetCommandLineArgs().Contains("--window-smoke"))
+                File.WriteAllText(Path.Combine(AppContext.BaseDirectory,"model-ready.json"),System.Text.Json.JsonSerializer.Serialize(new{modelReady=true,provider="cpu",workerProcessId=worker.ProcessId}));
         }
         catch (OperationCanceledException) { if (session == generation) StatusText.Text = "Model preparation canceled."; }
         catch (Exception e) { if (session == generation && !closing) ShowError(e.Message); }
