@@ -1,0 +1,33 @@
+name: Windows preview feedback
+description: Report a reproducible result from an invited Windows test.
+title: '[Windows preview] '
+body:
+  - type: markdown
+    attributes:
+      value: Use harmless example sentences. Do not upload private audio, personal dictation or complete machine diagnostics.
+  - type: input
+    id: version
+    attributes:
+      label: Far Flow version
+      placeholder: 0.1.0 preview
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Windows version, CPU, RAM and GPU
+      description: Include your microphone type if the problem involves recording.
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language tested
+      options: [English, Dutch, Mixed English/Dutch, Not speech-related]
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps, expected result and actual result
+      description: Include the displayed after-stop time if relevant. Say whether you tested offline and whether the model showed Ready.
+    validations:
+      required: true
