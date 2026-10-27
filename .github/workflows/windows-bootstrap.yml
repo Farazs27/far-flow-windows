@@ -1,0 +1,65 @@
+name: Windows template feasibility
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native-template:
+    runs-on: windows-2025-vs2026
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - uses: actions/setup-dotnet@26b0ec14cb23fa6904739307f278c14f94c95bf1
+        with:
+          dotnet-version: 10.0.403
+      - name: Inventory the Windows toolchain
+        shell: pwsh
+        run: |
+          dotnet --info
+          & "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -all -format json
+          Get-ChildItem 'C:\Program Files (x86)\Windows Kits\10\bin' -Directory
+      - name: Scaffold the official WinUI template on Windows
+        shell: pwsh
+        run: |
+          dotnet new install Microsoft.WindowsAppSDK.WinUI.CSharp.Templates::0.0.7-alpha
+          if ($LASTEXITCODE) { throw 'Template installation failed' }
+          dotnet new list winui
+          dotnet new winui -n FarFlow.Windows -o template/FarFlow.Windows
+          if ($LASTEXITCODE) { throw 'Official WinUI scaffold failed' }
+          # This template release has no --unpackaged option. The Phase 1 direct-launch
+          # preview deliberately sets None after generation; the production MSIX gate remains.
+          $path = 'template/FarFlow.Windows/FarFlow.Windows.csproj'
+          [xml]$project = Get-Content $path
+          $group = $project.Project.PropertyGroup[0]
+          foreach ($pair in @{
+            WindowsPackageType='None'; WindowsAppSDKSelfContained='true';
+            SelfContained='true'; PublishTrimmed='false'; PublishReadyToRun='false';
+            EnableMsixTooling='false'; EnableWinAppRunSupport='false';
+            EnableWindowsTargeting='true'
+          }.GetEnumerator()) {
+            $node = $project.CreateElement($pair.Key); $node.InnerText=$pair.Value
+            [void]$group.AppendChild($node)
+          }
+          foreach ($ref in @($project.SelectNodes('//PackageReference'))) {
+            if ($ref.Include -eq 'Microsoft.WindowsAppSDK') { $ref.Version='2.5.1' }
+            if ($ref.Include -eq 'Microsoft.Windows.SDK.BuildTools') { $ref.Version='10.0.26100.8249' }
+            if ($ref.Include -eq 'Microsoft.Windows.SDK.BuildTools.WinApp') { [void]$ref.ParentNode.RemoveChild($ref) }
+          }
+          $project.Save((Join-Path $PWD $path))
+          dotnet publish $path -c Release -r win-x64 -p:Platform=x64 -p:PublishProfile= -p:PublishTrimmed=false -p:PublishReadyToRun=false -o artifacts/template-app
+          if ($LASTEXITCODE) { throw 'Native template build failed' }
+      - name: Verify an actual responsive window
+        shell: pwsh
+        run: ./scripts/verify-window.ps1 -ExePath artifacts/template-app/FarFlow.Windows.exe -EvidenceDirectory artifacts/template-evidence
+      - name: Save the generated template without dependency caches
+        shell: pwsh
+        run: |
+          Remove-Item template/FarFlow.Windows/bin,template/FarFlow.Windows/obj -Recurse -Force -ErrorAction SilentlyContinue
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: official-winui-template
+          path: |
+            template/
+            artifacts/template-evidence/
+          include-hidden-files: true
