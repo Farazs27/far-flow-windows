@@ -11,7 +11,7 @@ Original Far Flow application code, documentation and branding remain all rights
 | sherpa-onnx | org.k2fsa.sherpa.onnx 2.0.1, commit af2d8d81dbfa61c4cea4c568da78f3982edca005; Xiaomi / next-gen Kaldi contributors | [Apache 2.0](licenses/Sherpa-ONNX-Apache-2.0.txt) |
 | ONNX Runtime and its dependencies | Native runtime in the sherpa-onnx Windows package | [MIT](licenses/ONNXRuntime-MIT.txt), [upstream third-party notices](licenses/ONNXRuntime-ThirdPartyNotices.txt) |
 | Microsoft Visual C++ runtime | Official x64 redistributable CRT from the build toolchain; version recorded with build evidence | Microsoft Visual Studio redistributable terms; not governed by Far Flow's license |
-| Zalando Sans | Approved font source carried from the Mac edition | [SIL Open Font License 1.1](brand/fonts/ZalandoSans-OFL.txt) |
+| Zalando Sans | Approved font source carried from the Mac edition | [SIL Open Font License 1.1](licenses/ZalandoSans-OFL.txt) |
 
 ## Separately downloaded speech model
 

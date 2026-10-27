@@ -1,5 +1,7 @@
 # Windows acceptance and release contract
 
+> Planning/release-contract snapshot. See [Phase 1 execution and current evidence](PHASE-1-STATUS.md) for the implemented preview and the tests actually run.
+
 All application rows below start **NOT RUN**. Planning documentation checks are separate from Windows build, launch, model, UI and hardware evidence. This contract defines what must pass before the Windows edition is called fully working.
 
 ## Evidence ladder

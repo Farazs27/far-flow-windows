@@ -1,5 +1,7 @@
 # Proposed privacy and security design
 
+> Planning/release-contract snapshot. See [Phase 1 execution and current evidence](PHASE-1-STATUS.md) for the implemented preview and the tests actually run.
+
 Status: architecture requirements, not a claim of implemented/tested Windows controls. Research supports the API boundaries; Windows enforcement and offline behavior must be tested.
 
 ## Local processing boundary

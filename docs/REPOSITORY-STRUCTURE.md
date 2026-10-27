@@ -1,3 +1,9 @@
+# Current Phase 1 source layout
+
+`FarFlow.Windows.slnx` contains `src/FarFlow.Core`, `src/FarFlow.Windows` and `src/FarFlow.ModelHost`, plus portable checks and Windows probes under `tests`. The initial Windows OS adapters live under `src/FarFlow.Windows/Services`; extracting a dedicated WindowsIntegration project is later work. `.github/workflows/windows-preview.yml` builds the portable preview and preserves real Windows evidence.
+
+The following original structure proposal remains the target for later phases, rather than a description of all files currently present. See [current evidence](PHASE-1-STATUS.md) and [build instructions](BUILDING.md).
+
 # Independent repository and delivery structure
 
 The Windows edition uses its own repository `Farazs27/far-flow-windows` and sibling development folder `far-flow-windows`. It does not share a Git history, app identity, build outputs, release stream, signing material or user database with the Mac edition.

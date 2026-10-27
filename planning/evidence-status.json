@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "stage": "planning_for_approval",
+  "stage": "preimplementation_research_snapshot",
   "research": {
     "dossiers": 4,
     "findings": 45,
@@ -30,5 +30,6 @@
     "interactive_windows_test_device_supplied": false
   },
   "requested_hardware_class": "Broad Intel/AMD PCs, MSI / RTX3070-class examples; exact specs unknown",
-  "implementation_approved": false
+  "implementation_approved": false,
+  "snapshot_note": "Captured before Phase 1 approval. Current execution and preview evidence are recorded in docs/PHASE-1-STATUS.md."
 }

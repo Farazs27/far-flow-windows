@@ -1,5 +1,7 @@
 # Mac-to-Windows migration audit
 
+> Planning/release-contract snapshot. See [Phase 1 execution and current evidence](PHASE-1-STATUS.md) for the implemented preview and the tests actually run.
+
 Audited public Mac baseline: [0.2.1, ccb628ad](https://github.com/Farazs27/far-flow/tree/ccb628adbeea97ed898c35f1f83b21188815c32b). Scope and independent corrections: [dossier 4](../research/10-findings-4.md), [validation 4](../research/20-validation-4.md). This is a behavioral port; there is no shared Swift binary assumption.
 
 | Mac component / feature | Windows treatment | Validation requirement |

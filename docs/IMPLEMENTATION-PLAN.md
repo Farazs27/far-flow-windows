@@ -1,6 +1,6 @@
 # Far Flow for Windows — implementation plan
 
-Prepared 27 October 2026. **Proposed for approval.** Research and repository setup are complete deliverables of this stage; application implementation and Windows certification are subsequent work.
+Prepared 27 October 2026. **Phase 1 approved and implementation started.** This is the staged master plan. See [current execution evidence](PHASE-1-STATUS.md) for the preview build and remaining stop/go gates.
 
 ## 1. Product decision
 

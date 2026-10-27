@@ -1,5 +1,7 @@
 # Proposed Windows architecture
 
+> Planning/release-contract snapshot. See [Phase 1 execution and current evidence](PHASE-1-STATUS.md) for the implemented preview and the tests actually run.
+
 Status: design proposal, not implemented. Evidence IDs refer to the [validated research](../research/30-final-report.md). C# / WinUI 3 is the proposed native shell; no web runtime is required for the UI.
 
 ## Process and module layout

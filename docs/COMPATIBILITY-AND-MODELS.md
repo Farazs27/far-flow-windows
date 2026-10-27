@@ -1,5 +1,7 @@
 # Hardware compatibility and model decision
 
+> Planning/release-contract snapshot. See [Phase 1 execution and current evidence](PHASE-1-STATUS.md) for the implemented preview and the tests actually run.
+
 Status: proposed support/benchmark policy. **No Windows speed, accuracy, memory or GPU-fit result has been produced.** MSI is treated as a PC manufacturer; RTX 3070 is a GPU-class example, not an exact supplied device specification.
 
 ## Support tiers

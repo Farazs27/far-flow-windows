@@ -1,0 +1,23 @@
+[
+  {
+    "path": "brand/screenshots/windows-light.png",
+    "sha256": "9b240c93ecf99261ce5e40e5a5b25ca8b2db16746db69a3b6361c6acdd83c542",
+    "source_commit": "f52fcdee3af7f3c5a7e6f23bd174c7ab597d6a38",
+    "ci_run": "https://github.com/Farazs27/far-flow-windows/actions/runs/40515872693",
+    "kind": "Unedited screenshot of actual WinUI app on Windows runner"
+  },
+  {
+    "path": "brand/screenshots/windows-dark.png",
+    "sha256": "a56e4976751bcdc58bd9f15f641920dfaa15ae4a1d98cf2f549dab282505ddd9",
+    "source_commit": "f52fcdee3af7f3c5a7e6f23bd174c7ab597d6a38",
+    "ci_run": "https://github.com/Farazs27/far-flow-windows/actions/runs/40515872693",
+    "kind": "Unedited screenshot of actual WinUI app on Windows runner"
+  },
+  {
+    "path": "brand/screenshots/windows-model.png",
+    "sha256": "7c5595e14beda7e3c0806fd7623418c85c18b60e6089246e225b663682a473ee",
+    "source_commit": "f52fcdee3af7f3c5a7e6f23bd174c7ab597d6a38",
+    "ci_run": "https://github.com/Farazs27/far-flow-windows/actions/runs/40515872693",
+    "kind": "Unedited screenshot of actual WinUI app on Windows runner"
+  }
+]

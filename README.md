@@ -3,9 +3,11 @@
 <p align="center"><strong>Your voice. On your PC.</strong><br>Private English and Dutch dictation, in a quiet native Windows app.</p>
 <p align="center"><a href="https://github.com/Farazs27/far-flow-windows/actions/workflows/windows-preview.yml"><img alt="Windows build and smoke tests" src="https://github.com/Farazs27/far-flow-windows/actions/workflows/windows-preview.yml/badge.svg"></a> <img alt="Windows 11 x64" src="https://img.shields.io/badge/Windows_11-x64-53634c"> <img alt="English and Dutch" src="https://img.shields.io/badge/English_%2B_Nederlands-local-292d2a"></p>
 
-![Far Flow travertine wave artwork](brand/assets/travertine-banner.png)
+![Far Flow for Windows — actual light-mode app](brand/screenshots/windows-light.png)
 
-**Phase 1 preview under verification.** This is the independent Windows edition of [Far Flow for Mac](https://github.com/Farazs27/far-flow). The first test release will be published after its Windows build, responsive launch and local speech smoke checks pass. It is an early test app, with a focused feature set.
+<sub>Actual Windows app capture. The approved Far Flow logo and travertine artwork are rendered inside the native interface.</sub>
+
+**Phase 1 evaluation preview.** This is the independent Windows edition of [Far Flow for Mac](https://github.com/Farazs27/far-flow), built and smoke-tested on Windows. It is an early test app with a focused feature set. Physical microphone, keyboard and personal-voice testing is the next gate.
 
 ## A small gesture. A clearer day.
 
@@ -19,7 +21,9 @@ Hold **F8** to dictate, release to finish, or double-tap for hands-free. Your mi
 
 ## Try the Windows preview
 
-Releases will appear on the [download page](https://github.com/Farazs27/far-flow-windows/releases). Read the [quick setup and tester checklist](docs/TESTING-PREVIEW.md) before testing. Published preview ZIPs contain the app and required runtimes; the **670 MB** model is a separate first-run download. Keep the whole extracted folder together and run **FarFlow.Windows.exe**.
+**[Download the Windows preview](https://github.com/Farazs27/far-flow-windows/releases/tag/v0.1.0-preview.1)** · [Download ZIP directly](https://github.com/Farazs27/far-flow-windows/releases/download/v0.1.0-preview.1/Far-Flow-Windows-0.1.0-preview-x64.zip)
+
+Read the [quick setup and tester checklist](docs/TESTING-PREVIEW.md) before testing. Published preview ZIPs contain the app and required runtimes; the **670 MB** model is a separate first-run download. Keep the whole extracted folder together and run **FarFlow.Windows.exe**.
 
 | Compatibility | Phase 1 scope |
 | --- | --- |
@@ -31,6 +35,12 @@ Releases will appear on the [download page](https://github.com/Farazs27/far-flow
 | Distribution | Portable folder ZIP; unsigned evaluation preview |
 
 NVIDIA / RTX 3070 acceleration, full editor coverage, media pause/resume, configurable shortcuts, persistent history, dictionary, snippets and the optional writer remain later work. Windows ARM64 and Windows 10 are not claimed as supported in this preview. See the [current evidence and remaining gates](docs/PHASE-1-STATUS.md).
+
+| Charcoal appearance | Local model setup |
+| --- | --- |
+| ![Far Flow Windows dark mode](brand/screenshots/windows-dark.png) | ![Far Flow Windows local model setup](brand/screenshots/windows-model.png) |
+
+These are genuine app screenshots from the Windows runner, not design mockups. [Screenshot provenance](brand/screenshots/provenance.json).
 
 ## Privacy, in practice
 
