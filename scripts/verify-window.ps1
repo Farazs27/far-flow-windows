@@ -1,7 +1,8 @@
 param(
     [Parameter(Mandatory=$true)][string]$ExePath,
     [Parameter(Mandatory=$true)][string]$EvidenceDirectory,
-    [string]$Arguments = ''
+    [string]$Arguments = '',
+    [switch]$VerifyBrand
 )
 $ErrorActionPreference = 'Stop'
 New-Item $EvidenceDirectory -ItemType Directory -Force | Out-Null
@@ -10,6 +11,8 @@ if(Get-Command Set-DisplayResolution -ErrorAction SilentlyContinue){
     try{Set-DisplayResolution -Width 1440 -Height 1000 -Force -ErrorAction Stop | Out-Null}catch{}
 }
 $resolvedExe = (Resolve-Path $ExePath).Path
+$assetsPath=Join-Path ([IO.Path]::GetDirectoryName($resolvedExe)) 'ui-smoke.json'
+if(Test-Path $assetsPath){Remove-Item $assetsPath}
 $process = Start-Process $resolvedExe -WorkingDirectory ([IO.Path]::GetDirectoryName($resolvedExe)) -ArgumentList $(if ($Arguments) {$Arguments} else {'--window-smoke'}) -PassThru
 try {
     $deadline = [DateTime]::UtcNow.AddSeconds(50)
@@ -68,8 +71,7 @@ public static class WindowCapture {
         $graphics.CopyFromScreen($rect.Left,$rect.Top,0,0,$bitmap.Size)
         $bitmap.Save((Join-Path (Resolve-Path $EvidenceDirectory) 'window.png'))
     } finally { $graphics.Dispose(); $bitmap.Dispose() }
-    if((Split-Path $resolvedExe -Leaf) -eq 'FarFlow.Windows.exe' -and $process.MainWindowTitle -ne 'Far Flow template verification'){
-        $assetsPath=Join-Path ([IO.Path]::GetDirectoryName($resolvedExe)) 'ui-smoke.json'
+    if($VerifyBrand){
         if(-not(Test-Path $assetsPath)){throw 'The app did not confirm that both branded images rendered'}
         $assets=Get-Content $assetsPath | ConvertFrom-Json
         if(-not $assets.heroLoaded -or -not $assets.logoLoaded){throw 'Branded image rendering failed'}
@@ -81,6 +83,9 @@ public static class WindowCapture {
         width=$width; height=$height; sourceCommit=$env:GITHUB_SHA;
         environment='GitHub hosted Windows runner; no physical microphone or keyboard certification'
     } | ConvertTo-Json | Set-Content (Join-Path $EvidenceDirectory 'window-evidence.json')
+    [WindowCapture]::SendMessageTimeoutW($handle,0x10,[IntPtr]::Zero,[IntPtr]::Zero,2,2000,[ref]$reply) | Out-Null
+    if(-not $process.WaitForExit(5000)){throw 'The app did not exit after normal window close'}
+    @{normalWindowClose='PASS';sourceCommit=$env:GITHUB_SHA} | ConvertTo-Json | Set-Content (Join-Path $EvidenceDirectory 'close-evidence.json')
 } catch {
     Get-WinEvent -FilterHashtable @{LogName='Application'; StartTime=[DateTime]::Now.AddMinutes(-5)} -ErrorAction SilentlyContinue |
         Where-Object { $_.Level -le 2 } | Select-Object -First 12 TimeCreated,ProviderName,Message |

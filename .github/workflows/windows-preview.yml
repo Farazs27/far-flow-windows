@@ -23,7 +23,7 @@ jobs:
         run: ./scripts/build-windows.ps1 -IncludeProbe
       - name: Launch the real app and capture its window
         shell: pwsh
-        run: ./scripts/verify-window.ps1 -ExePath artifacts/FarFlow-Windows-x64/FarFlow.Windows.exe -EvidenceDirectory artifacts/evidence
+        run: ./scripts/verify-window.ps1 -ExePath artifacts/FarFlow-Windows-x64/FarFlow.Windows.exe -EvidenceDirectory artifacts/evidence -VerifyBrand
       - name: Fetch and verify the approved model
         shell: pwsh
         run: |
@@ -50,6 +50,11 @@ jobs:
         run: |
           & artifacts/probe/FarFlow.Probe.exe --notepad-smoke
           if($LASTEXITCODE){throw 'Notepad delivery test failed'}
+      - name: Verify dark appearance and model setup navigation
+        shell: pwsh
+        run: |
+          ./scripts/verify-window.ps1 -ExePath artifacts/FarFlow-Windows-x64/FarFlow.Windows.exe -EvidenceDirectory artifacts/evidence/dark -Arguments '--window-smoke --theme-dark' -VerifyBrand
+          ./scripts/verify-window.ps1 -ExePath artifacts/FarFlow-Windows-x64/FarFlow.Windows.exe -EvidenceDirectory artifacts/evidence/model -Arguments '--window-smoke --show-model' -VerifyBrand
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:

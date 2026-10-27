@@ -25,6 +25,7 @@ public sealed partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        if(Environment.GetCommandLineArgs().Contains("--theme-dark"))ThemeChoice.SelectedIndex=1;
         var work = Microsoft.UI.Windowing.DisplayArea.GetFromWindowId(AppWindow.Id, Microsoft.UI.Windowing.DisplayAreaFallback.Primary).WorkArea;
         int width = Math.Min(1180, work.Width - 48), height = Math.Min(850, work.Height - 48);
         AppWindow.MoveAndResize(new Windows.Graphics.RectInt32(work.X + (work.Width - width) / 2, work.Y + (work.Height - height) / 2, width, height));
@@ -183,6 +184,9 @@ public sealed partial class MainWindow : Window
     {
         if (sender == HeroArtwork) heroLoaded = true; if (sender == BrandMark) markLoaded = true;
         if (heroLoaded && markLoaded && Environment.GetCommandLineArgs().Contains("--window-smoke"))
+        {
             File.WriteAllText(Path.Combine(AppContext.BaseDirectory, "ui-smoke.json"), "{\"heroLoaded\":true,\"logoLoaded\":true}");
+            if(Environment.GetCommandLineArgs().Contains("--show-model"))DispatcherQueue.TryEnqueue(()=>Navigation.SelectedItem=Navigation.MenuItems[1]);
+        }
     }
 }
